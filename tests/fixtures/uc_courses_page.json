@@ -1,0 +1,379 @@
+{
+  "schema": "observed-page/1",
+  "url": "https://apply.universityofcalifornia.edu/my-application/acadHistFrHighSchoolClasses/editClasses/09/123456",
+  "title": "Enter HS classes - Academic history - UC application",
+  "frames_present": false,
+  "fields": [
+    {
+      "key": "i:academics_hs_classes_add_0_subject",
+      "selector": "[id=\"academics_hs_classes_add_0_subject\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[0].subject",
+      "label": "Subject Area/Course Category",
+      "group": "",
+      "control": "select",
+      "value": "4",
+      "options": [
+        {
+          "label": "--",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "label": "English",
+          "value": "4",
+          "disabled": false
+        },
+        {
+          "label": "Physics",
+          "value": "19",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_0_class_title",
+      "selector": "[id=\"academics_hs_classes_add_0_class_title\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[0].class_title",
+      "label": "Course Name",
+      "group": "",
+      "control": "text",
+      "value": "Synthetic Course 1",
+      "options": [],
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_0_honors",
+      "selector": "[id=\"academics_hs_classes_add_0_honors\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[0].honors",
+      "label": "Honor Type",
+      "group": "",
+      "control": "select",
+      "value": "NH",
+      "options": [
+        {
+          "label": "--",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "label": "NH",
+          "value": "NH",
+          "disabled": false
+        },
+        {
+          "label": "AP",
+          "value": "AP",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_0_grade_system",
+      "selector": "[id=\"academics_hs_classes_add_0_grade_system\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[0].grade_system",
+      "label": "Grading System",
+      "group": "",
+      "control": "select",
+      "value": "C",
+      "options": [
+        {
+          "label": "0-100 (Canada - BC)",
+          "value": "4",
+          "disabled": false
+        },
+        {
+          "label": "Other",
+          "value": "C",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_0_grade1Other",
+      "selector": "[id=\"academics_hs_classes_add_0_grade1Other\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[0].grade1Other",
+      "label": "Grade 1",
+      "group": "",
+      "control": "text",
+      "value": "EXT",
+      "options": [],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_0_grade2Other",
+      "selector": "[id=\"academics_hs_classes_add_0_grade2Other\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[0].grade2Other",
+      "label": "Grade 2",
+      "group": "",
+      "control": "text",
+      "value": "NO",
+      "options": [],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_1_subject",
+      "selector": "[id=\"academics_hs_classes_add_1_subject\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[1].subject",
+      "label": "Subject Area/Course Category",
+      "group": "",
+      "control": "select",
+      "value": "4",
+      "options": [
+        {
+          "label": "--",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "label": "English",
+          "value": "4",
+          "disabled": false
+        },
+        {
+          "label": "Physics",
+          "value": "19",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_1_class_title",
+      "selector": "[id=\"academics_hs_classes_add_1_class_title\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[1].class_title",
+      "label": "Course Name",
+      "group": "",
+      "control": "text",
+      "value": "Synthetic Course 2",
+      "options": [],
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_1_honors",
+      "selector": "[id=\"academics_hs_classes_add_1_honors\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[1].honors",
+      "label": "Honor Type",
+      "group": "",
+      "control": "select",
+      "value": "NH",
+      "options": [
+        {
+          "label": "--",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "label": "NH",
+          "value": "NH",
+          "disabled": false
+        },
+        {
+          "label": "AP",
+          "value": "AP",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_1_grade_system",
+      "selector": "[id=\"academics_hs_classes_add_1_grade_system\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[1].grade_system",
+      "label": "Grading System",
+      "group": "",
+      "control": "select",
+      "value": "4",
+      "options": [
+        {
+          "label": "0-100 (Canada - BC)",
+          "value": "4",
+          "disabled": false
+        },
+        {
+          "label": "Other",
+          "value": "C",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_1_grade1",
+      "selector": "[id=\"academics_hs_classes_add_1_grade1\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[1].grade1",
+      "label": "Grade 1",
+      "group": "",
+      "control": "select",
+      "value": "091",
+      "options": [
+        {
+          "label": "--",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "label": "91",
+          "value": "091",
+          "disabled": false
+        },
+        {
+          "label": "93",
+          "value": "093",
+          "disabled": false
+        },
+        {
+          "label": "NO",
+          "value": "Z",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    },
+    {
+      "key": "i:academics_hs_classes_add_1_grade2",
+      "selector": "[id=\"academics_hs_classes_add_1_grade2\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "manualEnteredClassRows[1].grade2",
+      "label": "Grade 2",
+      "group": "",
+      "control": "select",
+      "value": "Z",
+      "options": [
+        {
+          "label": "--",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "label": "91",
+          "value": "091",
+          "disabled": false
+        },
+        {
+          "label": "93",
+          "value": "093",
+          "disabled": false
+        },
+        {
+          "label": "NO",
+          "value": "Z",
+          "disabled": false
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    }
+  ],
+  "actions": [
+    {
+      "key": "i:save",
+      "label": "Save & continue",
+      "selector": "[id=\"save\"]",
+      "disabled": false
+    },
+    {
+      "key": "i:cancel-btn",
+      "label": "Cancel",
+      "selector": "[id=\"cancel-btn\"]",
+      "disabled": false
+    }
+  ],
+  "uc_course_editor": {
+    "schema": "uc-course-editor/1",
+    "grade": "09",
+    "summary_url": "https://apply.universityofcalifornia.edu/my-application/acadHistFrGrades/09",
+    "year": "2024 - 2025 academic year",
+    "context_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "row_count": 2,
+    "row_terms": [
+      "Semester",
+      "Semester"
+    ],
+    "columns": [
+      "Subject area/Course category",
+      "Course name",
+      "Hnrs",
+      "Term",
+      "GRDG System",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "Language name"
+    ]
+  },
+  "uc_course_parent": {
+    "schema": "uc-course-parent/1",
+    "url": "https://apply.universityofcalifornia.edu/my-application/acadHistFrGrades/09",
+    "context_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "row_count": 2,
+    "summary_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "uc_academic_auxiliary": {
+    "schema": "uc-empty-comments/1",
+    "page_url": "https://apply.universityofcalifornia.edu/my-application/acadHistAddInformation",
+    "structure_sha256": "fc810d48daa5c7c0ea05c76a04f74496d66c9b9d28ebd005e916ccecf641b26a",
+    "values_sha256": "6da94067d98b0cd74f0f79559a802dac610123d62a7e3a46c72945d8b76e8640"
+  }
+}

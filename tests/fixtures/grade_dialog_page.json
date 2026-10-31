@@ -1,0 +1,560 @@
+{
+  "schema": "observed-page/1",
+  "url": "http://127.0.0.1:8765/common/13/55",
+  "title": "Synthetic grade editor",
+  "frames_present": false,
+  "fields": [
+    {
+      "key": "i:schoolNameControl1",
+      "selector": "[id=\"schoolNameControl1\"]",
+      "name": "",
+      "label": "Transcript 1 School Name",
+      "group": "",
+      "value": "Invented Secondary",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:schoolYearControl1",
+      "selector": "[id=\"schoolYearControl1\"]",
+      "name": "",
+      "label": "Transcript 1 School Year",
+      "group": "",
+      "value": "2024-25",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:gradingScaleControl1",
+      "selector": "[id=\"gradingScaleControl1\"]",
+      "name": "",
+      "label": "Transcript 1 Grading Scale",
+      "group": "",
+      "value": "Other",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:scheduleControl1",
+      "selector": "[id=\"scheduleControl1\"]",
+      "name": "",
+      "label": "Transcript 1 Schedule",
+      "group": "",
+      "value": "Semesters",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:subjectControl_T1C1",
+      "selector": "[id=\"subjectControl_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Subject",
+      "group": "",
+      "value": "Other/Elective",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:courseNameControl_T1C1",
+      "selector": "[id=\"courseNameControl_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Course Nameundefined",
+      "group": "",
+      "value": "Invented course 1",
+      "control": "text",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:levelControl_T1C1",
+      "selector": "[id=\"levelControl_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Course Level",
+      "group": "",
+      "value": "Regular/Standard",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:grades0_T1C1",
+      "selector": "[id=\"grades0_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Semester 1undefined",
+      "group": "",
+      "value": "",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T1C1",
+        "kind": "grades"
+      }
+    },
+    {
+      "key": "i:grades1_T1C1",
+      "selector": "[id=\"grades1_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Semester 2undefined",
+      "group": "",
+      "value": "PRF",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T1C1",
+        "kind": "grades"
+      }
+    },
+    {
+      "key": "i:grades2_T1C1",
+      "selector": "[id=\"grades2_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Finalundefined",
+      "group": "",
+      "value": "",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T1C1",
+        "kind": "grades"
+      }
+    },
+    {
+      "key": "i:credits0_T1C1",
+      "selector": "[id=\"credits0_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Semester 1 Credit",
+      "group": "",
+      "value": "",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T1C1",
+        "kind": "credits"
+      }
+    },
+    {
+      "key": "i:credits1_T1C1",
+      "selector": "[id=\"credits1_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Semester 2 Credit",
+      "group": "",
+      "value": "",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T1C1",
+        "kind": "credits"
+      }
+    },
+    {
+      "key": "i:credits2_T1C1",
+      "selector": "[id=\"credits2_T1C1\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Final Credits",
+      "group": "",
+      "value": "",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T1C1",
+        "kind": "credits"
+      }
+    },
+    {
+      "key": "i:creditNA_T1C1-input",
+      "selector": "[id=\"creditNA_T1C1-input\"]",
+      "name": "",
+      "label": "Transcript 1, Course 1, Credits not applicable",
+      "group": "",
+      "value": true,
+      "control": "checkbox",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:schoolNameControl2",
+      "selector": "[id=\"schoolNameControl2\"]",
+      "name": "",
+      "label": "Transcript 2 School Name",
+      "group": "",
+      "value": "Invented Secondary",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:schoolYearControl2",
+      "selector": "[id=\"schoolYearControl2\"]",
+      "name": "",
+      "label": "Transcript 2 School Year",
+      "group": "",
+      "value": "2024-25",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:gradingScaleControl2",
+      "selector": "[id=\"gradingScaleControl2\"]",
+      "name": "",
+      "label": "Transcript 2 Grading Scale",
+      "group": "",
+      "value": "1-100",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:scheduleControl2",
+      "selector": "[id=\"scheduleControl2\"]",
+      "name": "",
+      "label": "Transcript 2 Schedule",
+      "group": "",
+      "value": "Semesters",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:subjectControl_T2C1",
+      "selector": "[id=\"subjectControl_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Subject",
+      "group": "",
+      "value": "Other/Elective",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:courseNameControl_T2C1",
+      "selector": "[id=\"courseNameControl_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Course Nameundefined",
+      "group": "",
+      "value": "Invented course 2",
+      "control": "text",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:levelControl_T2C1",
+      "selector": "[id=\"levelControl_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Course Level",
+      "group": "",
+      "value": "Regular/Standard",
+      "control": "material_select",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    },
+    {
+      "key": "i:grades0_T2C1",
+      "selector": "[id=\"grades0_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Semester 1 Grade",
+      "group": "",
+      "value": "",
+      "control": "material_select",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T2C1",
+        "kind": "grades"
+      }
+    },
+    {
+      "key": "i:grades1_T2C1",
+      "selector": "[id=\"grades1_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Semester 2 Grade",
+      "group": "",
+      "value": "84",
+      "control": "material_select",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T2C1",
+        "kind": "grades"
+      }
+    },
+    {
+      "key": "i:grades2_T2C1",
+      "selector": "[id=\"grades2_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Final Grade",
+      "group": "",
+      "value": "",
+      "control": "material_select",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T2C1",
+        "kind": "grades"
+      }
+    },
+    {
+      "key": "i:credits0_T2C1",
+      "selector": "[id=\"credits0_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Semester 1 Credit",
+      "group": "",
+      "value": "",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T2C1",
+        "kind": "credits"
+      }
+    },
+    {
+      "key": "i:credits1_T2C1",
+      "selector": "[id=\"credits1_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Semester 2 Credit",
+      "group": "",
+      "value": "4",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T2C1",
+        "kind": "credits"
+      }
+    },
+    {
+      "key": "i:credits2_T2C1",
+      "selector": "[id=\"credits2_T2C1\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Final Credits",
+      "group": "",
+      "value": "",
+      "control": "text",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": [],
+      "requirement_group": {
+        "row": "T2C1",
+        "kind": "credits"
+      }
+    },
+    {
+      "key": "i:creditNA_T2C1-input",
+      "selector": "[id=\"creditNA_T2C1-input\"]",
+      "name": "",
+      "label": "Transcript 2, Course 1, Credits not applicable",
+      "group": "",
+      "value": false,
+      "control": "checkbox",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false,
+      "options": []
+    }
+  ],
+  "actions": [
+    {
+      "key": "a:Continue, Closes dialog:0",
+      "label": "Continue, Closes dialog",
+      "selector": null,
+      "disabled": false
+    }
+  ],
+  "scope": {
+    "kind": "common_app_grade_dialog",
+    "name": "Courses & Grades",
+    "heading": "Courses & Grades – 9th grade"
+  },
+  "requirement_groups": [
+    {
+      "row": "T1C1",
+      "kind": "grades",
+      "field_keys": [
+        "i:grades0_T1C1",
+        "i:grades1_T1C1",
+        "i:grades2_T1C1"
+      ]
+    },
+    {
+      "row": "T1C1",
+      "kind": "credits",
+      "field_keys": [
+        "i:credits0_T1C1",
+        "i:credits1_T1C1",
+        "i:credits2_T1C1"
+      ],
+      "not_applicable_key": "i:creditNA_T1C1-input"
+    },
+    {
+      "row": "T2C1",
+      "kind": "grades",
+      "field_keys": [
+        "i:grades0_T2C1",
+        "i:grades1_T2C1",
+        "i:grades2_T2C1"
+      ]
+    },
+    {
+      "row": "T2C1",
+      "kind": "credits",
+      "field_keys": [
+        "i:credits0_T2C1",
+        "i:credits1_T2C1",
+        "i:credits2_T2C1"
+      ],
+      "not_applicable_key": "i:creditNA_T2C1-input"
+    }
+  ],
+  "editor_state": {
+    "schema": "grade-parent/1",
+    "url": "http://127.0.0.1:8765/common/13/55",
+    "heading": "9th Grade",
+    "controls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "values_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "summary_sha256": "251d9b187c2a6923c4599b82ad451d438bcb61595e2f1ff83f3a783f552c78a9",
+    "completion_checked": true,
+    "state_metadata": {
+      "schema": "observed-state/1",
+      "coverage": "common_app_visible_navigation",
+      "current_page_key": "tertiaryNavItem13_55",
+      "items": [
+        {
+          "key": "secondaryNavItem13",
+          "status": "complete"
+        },
+        {
+          "key": "tertiaryNavItem13_55",
+          "status": "complete"
+        }
+      ]
+    },
+    "reopen_action": {
+      "key": "i:addCG",
+      "label": "Edit 9th grade",
+      "selector": "[id=\"addCG\"]",
+      "disabled": false
+    }
+  },
+  "state_metadata": {
+    "schema": "observed-state/1",
+    "coverage": "common_app_visible_navigation",
+    "current_page_key": "tertiaryNavItem13_55",
+    "items": [
+      {
+        "key": "secondaryNavItem13",
+        "status": "complete"
+      },
+      {
+        "key": "tertiaryNavItem13_55",
+        "status": "complete"
+      }
+    ]
+  },
+  "choice_observations": {
+    "i:grades1_T2C1": [
+      {
+        "label": "84",
+        "value": "84",
+        "disabled": false
+      },
+      {
+        "label": "94",
+        "value": "94",
+        "disabled": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "actions": [
+    {
+      "disabled": false,
+      "key": "i:sectionContinue55",
+      "label": "Continue to next section",
+      "selector": "[id=\"sectionContinue55\"]"
+    }
+  ],
+  "fields": [
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "Native grade controls with intentionally repeated IDs",
+      "invalid": false,
+      "key": "i:repeatedGrade@0",
+      "label": "Course 1 school percentage *",
+      "name": "grade_1",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"repeatedGrade\"]",
+      "selector_count": 3,
+      "selector_index": 0,
+      "value": "74"
+    },
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "Native grade controls with intentionally repeated IDs",
+      "invalid": false,
+      "key": "i:repeatedGrade@1",
+      "label": "Course 2 school percentage *",
+      "name": "grade_2",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"repeatedGrade\"]",
+      "selector_count": 3,
+      "selector_index": 1,
+      "value": "75"
+    },
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "Native grade controls with intentionally repeated IDs",
+      "invalid": false,
+      "key": "i:repeatedGrade@2",
+      "label": "Course 3 school percentage *",
+      "name": "grade_3",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"repeatedGrade\"]",
+      "selector_count": 3,
+      "selector_index": 2,
+      "value": "76"
+    }
+  ],
+  "frames_present": false,
+  "schema": "observed-page/1",
+  "title": "Synthetic Common App native grade controls",
+  "url": "http://127.0.0.1:8765/common/13/55"
+}

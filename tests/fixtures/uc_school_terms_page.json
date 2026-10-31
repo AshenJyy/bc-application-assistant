@@ -1,0 +1,2659 @@
+{
+  "actions": [
+    {
+      "disabled": false,
+      "key": "i:save-btn",
+      "label": "Save & continue",
+      "selector": "[id=\"save-btn\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:cancel-btn",
+      "label": "Cancel",
+      "selector": "[id=\"cancel-btn\"]"
+    }
+  ],
+  "fields": [
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "Specialized curriculum (if associated with this school)",
+      "invalid": false,
+      "key": "i:specialCurr-carrpath",
+      "label": "Career Pathway / Academy",
+      "name": "currentAcadHistFrHighSchool.academyFlag",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"specialCurr-carrpath\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "Specialized curriculum (if associated with this school)",
+      "invalid": false,
+      "key": "i:specialCurr-ib",
+      "label": "International Baccalaureate",
+      "name": "currentAcadHistFrHighSchool.ibFlag",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"specialCurr-ib\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "Specialized curriculum (if associated with this school)",
+      "invalid": false,
+      "key": "i:specialCurr-magnet",
+      "label": "Magnet",
+      "name": "currentAcadHistFrHighSchool.magnetFlag",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"specialCurr-magnet\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "Specialized curriculum (if associated with this school)",
+      "invalid": false,
+      "key": "i:specialCurr-other",
+      "label": "Other",
+      "name": "currentAcadHistFrHighSchool.otherFlag",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"specialCurr-other\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "When did you attend this high school? *",
+      "invalid": false,
+      "key": "i:startMonth",
+      "label": "start date Month *",
+      "name": "currentAcadHistFrHighSchool.schoolStartMm",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "January",
+          "value": "01"
+        },
+        {
+          "disabled": false,
+          "label": "February",
+          "value": "02"
+        },
+        {
+          "disabled": false,
+          "label": "March",
+          "value": "03"
+        },
+        {
+          "disabled": false,
+          "label": "April",
+          "value": "04"
+        },
+        {
+          "disabled": false,
+          "label": "May",
+          "value": "05"
+        },
+        {
+          "disabled": false,
+          "label": "June",
+          "value": "06"
+        },
+        {
+          "disabled": false,
+          "label": "July",
+          "value": "07"
+        },
+        {
+          "disabled": false,
+          "label": "August",
+          "value": "08"
+        },
+        {
+          "disabled": false,
+          "label": "September",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "October",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "November",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "December",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"startMonth\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "09"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "When did you attend this high school? *",
+      "invalid": false,
+      "key": "i:startYear",
+      "label": "start date Year *",
+      "name": "currentAcadHistFrHighSchool.schoolStartYyyy",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2027",
+          "value": "2027"
+        },
+        {
+          "disabled": false,
+          "label": "2026",
+          "value": "2026"
+        },
+        {
+          "disabled": false,
+          "label": "2025",
+          "value": "2025"
+        },
+        {
+          "disabled": false,
+          "label": "2024",
+          "value": "2024"
+        },
+        {
+          "disabled": false,
+          "label": "2023",
+          "value": "2023"
+        },
+        {
+          "disabled": false,
+          "label": "2022",
+          "value": "2022"
+        },
+        {
+          "disabled": false,
+          "label": "2021",
+          "value": "2021"
+        },
+        {
+          "disabled": false,
+          "label": "2020",
+          "value": "2020"
+        },
+        {
+          "disabled": false,
+          "label": "2019",
+          "value": "2019"
+        },
+        {
+          "disabled": false,
+          "label": "2018",
+          "value": "2018"
+        },
+        {
+          "disabled": false,
+          "label": "2017",
+          "value": "2017"
+        },
+        {
+          "disabled": false,
+          "label": "2016",
+          "value": "2016"
+        },
+        {
+          "disabled": false,
+          "label": "2015",
+          "value": "2015"
+        },
+        {
+          "disabled": false,
+          "label": "2014",
+          "value": "2014"
+        },
+        {
+          "disabled": false,
+          "label": "2013",
+          "value": "2013"
+        },
+        {
+          "disabled": false,
+          "label": "2012",
+          "value": "2012"
+        },
+        {
+          "disabled": false,
+          "label": "2011",
+          "value": "2011"
+        },
+        {
+          "disabled": false,
+          "label": "2010",
+          "value": "2010"
+        },
+        {
+          "disabled": false,
+          "label": "2009",
+          "value": "2009"
+        },
+        {
+          "disabled": false,
+          "label": "2008",
+          "value": "2008"
+        },
+        {
+          "disabled": false,
+          "label": "2007",
+          "value": "2007"
+        },
+        {
+          "disabled": false,
+          "label": "2006",
+          "value": "2006"
+        },
+        {
+          "disabled": false,
+          "label": "2005",
+          "value": "2005"
+        },
+        {
+          "disabled": false,
+          "label": "2004",
+          "value": "2004"
+        },
+        {
+          "disabled": false,
+          "label": "2003",
+          "value": "2003"
+        },
+        {
+          "disabled": false,
+          "label": "2002",
+          "value": "2002"
+        },
+        {
+          "disabled": false,
+          "label": "2001",
+          "value": "2001"
+        },
+        {
+          "disabled": false,
+          "label": "2000",
+          "value": "2000"
+        },
+        {
+          "disabled": false,
+          "label": "1999",
+          "value": "1999"
+        },
+        {
+          "disabled": false,
+          "label": "1998",
+          "value": "1998"
+        },
+        {
+          "disabled": false,
+          "label": "1997",
+          "value": "1997"
+        },
+        {
+          "disabled": false,
+          "label": "1996",
+          "value": "1996"
+        },
+        {
+          "disabled": false,
+          "label": "1995",
+          "value": "1995"
+        },
+        {
+          "disabled": false,
+          "label": "1994",
+          "value": "1994"
+        },
+        {
+          "disabled": false,
+          "label": "1993",
+          "value": "1993"
+        },
+        {
+          "disabled": false,
+          "label": "1992",
+          "value": "1992"
+        },
+        {
+          "disabled": false,
+          "label": "1991",
+          "value": "1991"
+        },
+        {
+          "disabled": false,
+          "label": "1990",
+          "value": "1990"
+        },
+        {
+          "disabled": false,
+          "label": "1989",
+          "value": "1989"
+        },
+        {
+          "disabled": false,
+          "label": "1988",
+          "value": "1988"
+        },
+        {
+          "disabled": false,
+          "label": "1987",
+          "value": "1987"
+        },
+        {
+          "disabled": false,
+          "label": "1986",
+          "value": "1986"
+        },
+        {
+          "disabled": false,
+          "label": "1985",
+          "value": "1985"
+        },
+        {
+          "disabled": false,
+          "label": "1984",
+          "value": "1984"
+        },
+        {
+          "disabled": false,
+          "label": "1983",
+          "value": "1983"
+        },
+        {
+          "disabled": false,
+          "label": "1982",
+          "value": "1982"
+        },
+        {
+          "disabled": false,
+          "label": "1981",
+          "value": "1981"
+        },
+        {
+          "disabled": false,
+          "label": "1980",
+          "value": "1980"
+        },
+        {
+          "disabled": false,
+          "label": "1979",
+          "value": "1979"
+        },
+        {
+          "disabled": false,
+          "label": "1978",
+          "value": "1978"
+        },
+        {
+          "disabled": false,
+          "label": "1977",
+          "value": "1977"
+        },
+        {
+          "disabled": false,
+          "label": "1976",
+          "value": "1976"
+        },
+        {
+          "disabled": false,
+          "label": "1975",
+          "value": "1975"
+        },
+        {
+          "disabled": false,
+          "label": "1974",
+          "value": "1974"
+        },
+        {
+          "disabled": false,
+          "label": "1973",
+          "value": "1973"
+        },
+        {
+          "disabled": false,
+          "label": "1972",
+          "value": "1972"
+        },
+        {
+          "disabled": false,
+          "label": "1971",
+          "value": "1971"
+        },
+        {
+          "disabled": false,
+          "label": "1970",
+          "value": "1970"
+        },
+        {
+          "disabled": false,
+          "label": "1969",
+          "value": "1969"
+        },
+        {
+          "disabled": false,
+          "label": "1968",
+          "value": "1968"
+        },
+        {
+          "disabled": false,
+          "label": "1967",
+          "value": "1967"
+        },
+        {
+          "disabled": false,
+          "label": "1966",
+          "value": "1966"
+        },
+        {
+          "disabled": false,
+          "label": "1965",
+          "value": "1965"
+        },
+        {
+          "disabled": false,
+          "label": "1964",
+          "value": "1964"
+        },
+        {
+          "disabled": false,
+          "label": "1963",
+          "value": "1963"
+        },
+        {
+          "disabled": false,
+          "label": "1962",
+          "value": "1962"
+        },
+        {
+          "disabled": false,
+          "label": "1961",
+          "value": "1961"
+        },
+        {
+          "disabled": false,
+          "label": "1960",
+          "value": "1960"
+        },
+        {
+          "disabled": false,
+          "label": "1959",
+          "value": "1959"
+        },
+        {
+          "disabled": false,
+          "label": "1958",
+          "value": "1958"
+        },
+        {
+          "disabled": false,
+          "label": "1957",
+          "value": "1957"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"startYear\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "2024"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "When did you attend this high school? *",
+      "invalid": false,
+      "key": "i:endMonth",
+      "label": "end date month",
+      "name": "currentAcadHistFrHighSchool.schoolEndMm",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "January",
+          "value": "01"
+        },
+        {
+          "disabled": false,
+          "label": "February",
+          "value": "02"
+        },
+        {
+          "disabled": false,
+          "label": "March",
+          "value": "03"
+        },
+        {
+          "disabled": false,
+          "label": "April",
+          "value": "04"
+        },
+        {
+          "disabled": false,
+          "label": "May",
+          "value": "05"
+        },
+        {
+          "disabled": false,
+          "label": "June",
+          "value": "06"
+        },
+        {
+          "disabled": false,
+          "label": "July",
+          "value": "07"
+        },
+        {
+          "disabled": false,
+          "label": "August",
+          "value": "08"
+        },
+        {
+          "disabled": false,
+          "label": "September",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "October",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "November",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "December",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"endMonth\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "06"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "When did you attend this high school? *",
+      "invalid": false,
+      "key": "i:endYear",
+      "label": "end date year",
+      "name": "currentAcadHistFrHighSchool.schoolEndYyyy",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2027",
+          "value": "2027"
+        },
+        {
+          "disabled": false,
+          "label": "2026",
+          "value": "2026"
+        },
+        {
+          "disabled": false,
+          "label": "2025",
+          "value": "2025"
+        },
+        {
+          "disabled": false,
+          "label": "2024",
+          "value": "2024"
+        },
+        {
+          "disabled": false,
+          "label": "2023",
+          "value": "2023"
+        },
+        {
+          "disabled": false,
+          "label": "2022",
+          "value": "2022"
+        },
+        {
+          "disabled": false,
+          "label": "2021",
+          "value": "2021"
+        },
+        {
+          "disabled": false,
+          "label": "2020",
+          "value": "2020"
+        },
+        {
+          "disabled": false,
+          "label": "2019",
+          "value": "2019"
+        },
+        {
+          "disabled": false,
+          "label": "2018",
+          "value": "2018"
+        },
+        {
+          "disabled": false,
+          "label": "2017",
+          "value": "2017"
+        },
+        {
+          "disabled": false,
+          "label": "2016",
+          "value": "2016"
+        },
+        {
+          "disabled": false,
+          "label": "2015",
+          "value": "2015"
+        },
+        {
+          "disabled": false,
+          "label": "2014",
+          "value": "2014"
+        },
+        {
+          "disabled": false,
+          "label": "2013",
+          "value": "2013"
+        },
+        {
+          "disabled": false,
+          "label": "2012",
+          "value": "2012"
+        },
+        {
+          "disabled": false,
+          "label": "2011",
+          "value": "2011"
+        },
+        {
+          "disabled": false,
+          "label": "2010",
+          "value": "2010"
+        },
+        {
+          "disabled": false,
+          "label": "2009",
+          "value": "2009"
+        },
+        {
+          "disabled": false,
+          "label": "2008",
+          "value": "2008"
+        },
+        {
+          "disabled": false,
+          "label": "2007",
+          "value": "2007"
+        },
+        {
+          "disabled": false,
+          "label": "2006",
+          "value": "2006"
+        },
+        {
+          "disabled": false,
+          "label": "2005",
+          "value": "2005"
+        },
+        {
+          "disabled": false,
+          "label": "2004",
+          "value": "2004"
+        },
+        {
+          "disabled": false,
+          "label": "2003",
+          "value": "2003"
+        },
+        {
+          "disabled": false,
+          "label": "2002",
+          "value": "2002"
+        },
+        {
+          "disabled": false,
+          "label": "2001",
+          "value": "2001"
+        },
+        {
+          "disabled": false,
+          "label": "2000",
+          "value": "2000"
+        },
+        {
+          "disabled": false,
+          "label": "1999",
+          "value": "1999"
+        },
+        {
+          "disabled": false,
+          "label": "1998",
+          "value": "1998"
+        },
+        {
+          "disabled": false,
+          "label": "1997",
+          "value": "1997"
+        },
+        {
+          "disabled": false,
+          "label": "1996",
+          "value": "1996"
+        },
+        {
+          "disabled": false,
+          "label": "1995",
+          "value": "1995"
+        },
+        {
+          "disabled": false,
+          "label": "1994",
+          "value": "1994"
+        },
+        {
+          "disabled": false,
+          "label": "1993",
+          "value": "1993"
+        },
+        {
+          "disabled": false,
+          "label": "1992",
+          "value": "1992"
+        },
+        {
+          "disabled": false,
+          "label": "1991",
+          "value": "1991"
+        },
+        {
+          "disabled": false,
+          "label": "1990",
+          "value": "1990"
+        },
+        {
+          "disabled": false,
+          "label": "1989",
+          "value": "1989"
+        },
+        {
+          "disabled": false,
+          "label": "1988",
+          "value": "1988"
+        },
+        {
+          "disabled": false,
+          "label": "1987",
+          "value": "1987"
+        },
+        {
+          "disabled": false,
+          "label": "1986",
+          "value": "1986"
+        },
+        {
+          "disabled": false,
+          "label": "1985",
+          "value": "1985"
+        },
+        {
+          "disabled": false,
+          "label": "1984",
+          "value": "1984"
+        },
+        {
+          "disabled": false,
+          "label": "1983",
+          "value": "1983"
+        },
+        {
+          "disabled": false,
+          "label": "1982",
+          "value": "1982"
+        },
+        {
+          "disabled": false,
+          "label": "1981",
+          "value": "1981"
+        },
+        {
+          "disabled": false,
+          "label": "1980",
+          "value": "1980"
+        },
+        {
+          "disabled": false,
+          "label": "1979",
+          "value": "1979"
+        },
+        {
+          "disabled": false,
+          "label": "1978",
+          "value": "1978"
+        },
+        {
+          "disabled": false,
+          "label": "1977",
+          "value": "1977"
+        },
+        {
+          "disabled": false,
+          "label": "1976",
+          "value": "1976"
+        },
+        {
+          "disabled": false,
+          "label": "1975",
+          "value": "1975"
+        },
+        {
+          "disabled": false,
+          "label": "1974",
+          "value": "1974"
+        },
+        {
+          "disabled": false,
+          "label": "1973",
+          "value": "1973"
+        },
+        {
+          "disabled": false,
+          "label": "1972",
+          "value": "1972"
+        },
+        {
+          "disabled": false,
+          "label": "1971",
+          "value": "1971"
+        },
+        {
+          "disabled": false,
+          "label": "1970",
+          "value": "1970"
+        },
+        {
+          "disabled": false,
+          "label": "1969",
+          "value": "1969"
+        },
+        {
+          "disabled": false,
+          "label": "1968",
+          "value": "1968"
+        },
+        {
+          "disabled": false,
+          "label": "1967",
+          "value": "1967"
+        },
+        {
+          "disabled": false,
+          "label": "1966",
+          "value": "1966"
+        },
+        {
+          "disabled": false,
+          "label": "1965",
+          "value": "1965"
+        },
+        {
+          "disabled": false,
+          "label": "1964",
+          "value": "1964"
+        },
+        {
+          "disabled": false,
+          "label": "1963",
+          "value": "1963"
+        },
+        {
+          "disabled": false,
+          "label": "1962",
+          "value": "1962"
+        },
+        {
+          "disabled": false,
+          "label": "1961",
+          "value": "1961"
+        },
+        {
+          "disabled": false,
+          "label": "1960",
+          "value": "1960"
+        },
+        {
+          "disabled": false,
+          "label": "1959",
+          "value": "1959"
+        },
+        {
+          "disabled": false,
+          "label": "1958",
+          "value": "1958"
+        },
+        {
+          "disabled": false,
+          "label": "1957",
+          "value": "1957"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"endYear\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "2026"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendgrade0",
+      "label": "Grade *",
+      "name": "acadYears[0].gradeLevel",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendgrade0\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "09"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsyear0",
+      "label": "Academic Year selection *",
+      "name": "acadYears[0].acadYear",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2024 - 2025",
+          "value": "24-25"
+        },
+        {
+          "disabled": false,
+          "label": "2025 - 2026",
+          "value": "25-26"
+        },
+        {
+          "disabled": false,
+          "label": "2026 - 2027",
+          "value": "26-27"
+        },
+        {
+          "disabled": false,
+          "label": "2027 - 2028",
+          "value": "27-28"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsyear0\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "24-25"
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsummer0",
+      "label": "I took summer courses after this grade",
+      "name": "acadYears[0].hasSummerCourses",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsummer0\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendgrade1",
+      "label": "Grade *",
+      "name": "acadYears[1].gradeLevel",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendgrade1\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "10"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsyear1",
+      "label": "Academic Year selection *",
+      "name": "acadYears[1].acadYear",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2024 - 2025",
+          "value": "24-25"
+        },
+        {
+          "disabled": false,
+          "label": "2025 - 2026",
+          "value": "25-26"
+        },
+        {
+          "disabled": false,
+          "label": "2026 - 2027",
+          "value": "26-27"
+        },
+        {
+          "disabled": false,
+          "label": "2027 - 2028",
+          "value": "27-28"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsyear1\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "25-26"
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsummer1",
+      "label": "I took summer courses after this grade",
+      "name": "acadYears[1].hasSummerCourses",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsummer1\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendgrade2",
+      "label": "Grade *",
+      "name": "acadYears[2].gradeLevel",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendgrade2\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsyear2",
+      "label": "Academic Year selection *",
+      "name": "acadYears[2].acadYear",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2024 - 2025",
+          "value": "24-25"
+        },
+        {
+          "disabled": false,
+          "label": "2025 - 2026",
+          "value": "25-26"
+        },
+        {
+          "disabled": false,
+          "label": "2026 - 2027",
+          "value": "26-27"
+        },
+        {
+          "disabled": false,
+          "label": "2027 - 2028",
+          "value": "27-28"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsyear2\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": ""
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsummer2",
+      "label": "I took summer courses after this grade",
+      "name": "acadYears[2].hasSummerCourses",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsummer2\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendgrade3",
+      "label": "Grade *",
+      "name": "acadYears[3].gradeLevel",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendgrade3\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsyear3",
+      "label": "Academic Year selection *",
+      "name": "acadYears[3].acadYear",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2024 - 2025",
+          "value": "24-25"
+        },
+        {
+          "disabled": false,
+          "label": "2025 - 2026",
+          "value": "25-26"
+        },
+        {
+          "disabled": false,
+          "label": "2026 - 2027",
+          "value": "26-27"
+        },
+        {
+          "disabled": false,
+          "label": "2027 - 2028",
+          "value": "27-28"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsyear3\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": ""
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What grades did you attend this high school? *",
+      "invalid": false,
+      "key": "i:attendsummer3",
+      "label": "I took summer courses after this grade",
+      "name": "acadYears[3].hasSummerCourses",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"attendsummer3\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_A",
+      "label": "A B C D F",
+      "name": "gradingSystems[0].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_A\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_B",
+      "label": "0-100 (U.S.)",
+      "name": "gradingSystems[1].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_B\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_3",
+      "label": "0-100 (Canada - AB, SK)",
+      "name": "gradingSystems[2].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_3\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_4",
+      "label": "0-100 (Canada - BC)",
+      "name": "gradingSystems[3].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_4\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": true
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_5",
+      "label": "0-100 (Canada - MB, NB, ON)",
+      "name": "gradingSystems[4].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_5\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_6",
+      "label": "0-100 (Canada - NL, NS)",
+      "name": "gradingSystems[5].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_6\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_7",
+      "label": "0-100 (Canada - PE)",
+      "name": "gradingSystems[6].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_7\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_8",
+      "label": "0-100 (Canada - QC)",
+      "name": "gradingSystems[7].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_8\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_9",
+      "label": "0-100 (Canada - YT)",
+      "name": "gradingSystems[8].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_9\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_D",
+      "label": "0-100 (China)",
+      "name": "gradingSystems[9].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_D\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_E",
+      "label": "0-100 (India)",
+      "name": "gradingSystems[10].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_E\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_F",
+      "label": "0-100 (Korea)",
+      "name": "gradingSystems[11].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_F\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_13",
+      "label": "0-100 (Mexico)",
+      "name": "gradingSystems[12].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_13\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_14",
+      "label": "0-100 (Pakistan)",
+      "name": "gradingSystems[13].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_14\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_15",
+      "label": "0-100 (Philippines)",
+      "name": "gradingSystems[14].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_15\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_16",
+      "label": "0-100 (Saudi Arabia)",
+      "name": "gradingSystems[15].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_16\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_G",
+      "label": "0-100 (Taiwan)",
+      "name": "gradingSystems[16].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_G\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_27",
+      "label": "0-100 (Turkey)",
+      "name": "gradingSystems[17].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_27\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_18",
+      "label": "0-100 (United Arab Emirates)",
+      "name": "gradingSystems[18].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_18\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_19",
+      "label": "0-15 (Germany)",
+      "name": "gradingSystems[19].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_19\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_20",
+      "label": "0-20 (France)",
+      "name": "gradingSystems[20].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_20\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_26",
+      "label": "0.0-4.0 (United Arab Emirates)",
+      "name": "gradingSystems[21].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_26\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_21",
+      "label": "1-10 (Mexico)",
+      "name": "gradingSystems[22].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_21\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_28",
+      "label": "1-5 (Turkey)",
+      "name": "gradingSystems[23].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_28\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_I",
+      "label": "1-7 Int'l Bacc",
+      "name": "gradingSystems[24].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_I\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_29",
+      "label": "1-9 (U.K.)",
+      "name": "gradingSystems[25].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_29\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_30",
+      "label": "A*-E, U (U.K.)",
+      "name": "gradingSystems[26].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_30\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_23",
+      "label": "Sehr Gut, Gut... (Germany)",
+      "name": "gradingSystems[27].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_23\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_H",
+      "label": "Su, Wu, Mi... (Korea)",
+      "name": "gradingSystems[28].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_H\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's grading system? *",
+      "invalid": false,
+      "key": "i:grading_sys_C",
+      "label": "Other",
+      "name": "gradingSystems[29].isChecked",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"grading_sys_C\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's term system? *",
+      "invalid": false,
+      "key": "i:onefinal",
+      "label": "Full year (1 final grade per year)",
+      "name": "currentAcadHistFrHighSchool.termTypeFullFlag",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"onefinal\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's term system? *",
+      "invalid": false,
+      "key": "i:semester",
+      "label": "Semester (2 final grades per year)",
+      "name": "currentAcadHistFrHighSchool.termTypeSemesterFlag",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"semester\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": true
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's term system? *",
+      "invalid": false,
+      "key": "i:Trimester",
+      "label": "Trimester (3 final grades per year)",
+      "name": "currentAcadHistFrHighSchool.termTypeTrimesterFlag",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"Trimester\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "checkbox",
+      "disabled": false,
+      "group": "What is this school's term system? *",
+      "invalid": false,
+      "key": "i:Quarter",
+      "label": "Quarter (4 final grades per year)",
+      "name": "currentAcadHistFrHighSchool.termTypeQuarterFlag",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"Quarter\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": false
+    },
+    {
+      "control": "radio",
+      "disabled": false,
+      "group": "Is this the school you will graduate from? *",
+      "invalid": false,
+      "key": "n:currentAcadHistFrHighSchool.graduationFlag",
+      "label": "Is this the school you will graduate from? *",
+      "name": "currentAcadHistFrHighSchool.graduationFlag",
+      "options": [
+        {
+          "disabled": false,
+          "label": "No",
+          "selector": "[id=\"shcoolgrdfno\"]",
+          "selector_count": 1,
+          "selector_index": 0,
+          "value": "N"
+        },
+        {
+          "disabled": false,
+          "label": "Yes",
+          "selector": "[id=\"shcoolgrdfyes\"]",
+          "selector_count": 1,
+          "selector_index": 0,
+          "value": "Y"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"shcoolgrdfno\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "Y"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Degree, diploma, or certification received or to be received. *",
+      "invalid": false,
+      "key": "i:hsDegreeSelect",
+      "label": "Degree select",
+      "name": "currentAcadHistFrHighSchool.schoolDegreeCode",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "High/Secondary School Diploma",
+          "value": "A"
+        },
+        {
+          "disabled": false,
+          "label": "IB Diploma",
+          "value": "B"
+        },
+        {
+          "disabled": false,
+          "label": "GED",
+          "value": "C"
+        },
+        {
+          "disabled": false,
+          "label": "Certificate of Proficiency",
+          "value": "D"
+        },
+        {
+          "disabled": false,
+          "label": "Other",
+          "value": "O"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"hsDegreeSelect\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "A"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Date received or to be received.*",
+      "invalid": false,
+      "key": "i:gradMonth",
+      "label": "Month *",
+      "name": "currentAcadHistFrHighSchool.schoolDegreeReceivedMm",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "January",
+          "value": "01"
+        },
+        {
+          "disabled": false,
+          "label": "February",
+          "value": "02"
+        },
+        {
+          "disabled": false,
+          "label": "March",
+          "value": "03"
+        },
+        {
+          "disabled": false,
+          "label": "April",
+          "value": "04"
+        },
+        {
+          "disabled": false,
+          "label": "May",
+          "value": "05"
+        },
+        {
+          "disabled": false,
+          "label": "June",
+          "value": "06"
+        },
+        {
+          "disabled": false,
+          "label": "July",
+          "value": "07"
+        },
+        {
+          "disabled": false,
+          "label": "August",
+          "value": "08"
+        },
+        {
+          "disabled": false,
+          "label": "September",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "October",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "November",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "December",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"gradMonth\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "06"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Date received or to be received.*",
+      "invalid": false,
+      "key": "i:gradYear",
+      "label": "Year *",
+      "name": "currentAcadHistFrHighSchool.schoolDegreeReceivedYyyy",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2027",
+          "value": "2027"
+        },
+        {
+          "disabled": false,
+          "label": "2026",
+          "value": "2026"
+        },
+        {
+          "disabled": false,
+          "label": "2025",
+          "value": "2025"
+        },
+        {
+          "disabled": false,
+          "label": "2024",
+          "value": "2024"
+        },
+        {
+          "disabled": false,
+          "label": "2023",
+          "value": "2023"
+        },
+        {
+          "disabled": false,
+          "label": "2022",
+          "value": "2022"
+        },
+        {
+          "disabled": false,
+          "label": "2021",
+          "value": "2021"
+        },
+        {
+          "disabled": false,
+          "label": "2020",
+          "value": "2020"
+        },
+        {
+          "disabled": false,
+          "label": "2019",
+          "value": "2019"
+        },
+        {
+          "disabled": false,
+          "label": "2018",
+          "value": "2018"
+        },
+        {
+          "disabled": false,
+          "label": "2017",
+          "value": "2017"
+        },
+        {
+          "disabled": false,
+          "label": "2016",
+          "value": "2016"
+        },
+        {
+          "disabled": false,
+          "label": "2015",
+          "value": "2015"
+        },
+        {
+          "disabled": false,
+          "label": "2014",
+          "value": "2014"
+        },
+        {
+          "disabled": false,
+          "label": "2013",
+          "value": "2013"
+        },
+        {
+          "disabled": false,
+          "label": "2012",
+          "value": "2012"
+        },
+        {
+          "disabled": false,
+          "label": "2011",
+          "value": "2011"
+        },
+        {
+          "disabled": false,
+          "label": "2010",
+          "value": "2010"
+        },
+        {
+          "disabled": false,
+          "label": "2009",
+          "value": "2009"
+        },
+        {
+          "disabled": false,
+          "label": "2008",
+          "value": "2008"
+        },
+        {
+          "disabled": false,
+          "label": "2007",
+          "value": "2007"
+        },
+        {
+          "disabled": false,
+          "label": "2006",
+          "value": "2006"
+        },
+        {
+          "disabled": false,
+          "label": "2005",
+          "value": "2005"
+        },
+        {
+          "disabled": false,
+          "label": "2004",
+          "value": "2004"
+        },
+        {
+          "disabled": false,
+          "label": "2003",
+          "value": "2003"
+        },
+        {
+          "disabled": false,
+          "label": "2002",
+          "value": "2002"
+        },
+        {
+          "disabled": false,
+          "label": "2001",
+          "value": "2001"
+        },
+        {
+          "disabled": false,
+          "label": "2000",
+          "value": "2000"
+        },
+        {
+          "disabled": false,
+          "label": "1999",
+          "value": "1999"
+        },
+        {
+          "disabled": false,
+          "label": "1998",
+          "value": "1998"
+        },
+        {
+          "disabled": false,
+          "label": "1997",
+          "value": "1997"
+        },
+        {
+          "disabled": false,
+          "label": "1996",
+          "value": "1996"
+        },
+        {
+          "disabled": false,
+          "label": "1995",
+          "value": "1995"
+        },
+        {
+          "disabled": false,
+          "label": "1994",
+          "value": "1994"
+        },
+        {
+          "disabled": false,
+          "label": "1993",
+          "value": "1993"
+        },
+        {
+          "disabled": false,
+          "label": "1992",
+          "value": "1992"
+        },
+        {
+          "disabled": false,
+          "label": "1991",
+          "value": "1991"
+        },
+        {
+          "disabled": false,
+          "label": "1990",
+          "value": "1990"
+        },
+        {
+          "disabled": false,
+          "label": "1989",
+          "value": "1989"
+        },
+        {
+          "disabled": false,
+          "label": "1988",
+          "value": "1988"
+        },
+        {
+          "disabled": false,
+          "label": "1987",
+          "value": "1987"
+        },
+        {
+          "disabled": false,
+          "label": "1986",
+          "value": "1986"
+        },
+        {
+          "disabled": false,
+          "label": "1985",
+          "value": "1985"
+        },
+        {
+          "disabled": false,
+          "label": "1984",
+          "value": "1984"
+        },
+        {
+          "disabled": false,
+          "label": "1983",
+          "value": "1983"
+        },
+        {
+          "disabled": false,
+          "label": "1982",
+          "value": "1982"
+        },
+        {
+          "disabled": false,
+          "label": "1981",
+          "value": "1981"
+        },
+        {
+          "disabled": false,
+          "label": "1980",
+          "value": "1980"
+        },
+        {
+          "disabled": false,
+          "label": "1979",
+          "value": "1979"
+        },
+        {
+          "disabled": false,
+          "label": "1978",
+          "value": "1978"
+        },
+        {
+          "disabled": false,
+          "label": "1977",
+          "value": "1977"
+        },
+        {
+          "disabled": false,
+          "label": "1976",
+          "value": "1976"
+        },
+        {
+          "disabled": false,
+          "label": "1975",
+          "value": "1975"
+        },
+        {
+          "disabled": false,
+          "label": "1974",
+          "value": "1974"
+        },
+        {
+          "disabled": false,
+          "label": "1973",
+          "value": "1973"
+        },
+        {
+          "disabled": false,
+          "label": "1972",
+          "value": "1972"
+        },
+        {
+          "disabled": false,
+          "label": "1971",
+          "value": "1971"
+        },
+        {
+          "disabled": false,
+          "label": "1970",
+          "value": "1970"
+        },
+        {
+          "disabled": false,
+          "label": "1969",
+          "value": "1969"
+        },
+        {
+          "disabled": false,
+          "label": "1968",
+          "value": "1968"
+        },
+        {
+          "disabled": false,
+          "label": "1967",
+          "value": "1967"
+        },
+        {
+          "disabled": false,
+          "label": "1966",
+          "value": "1966"
+        },
+        {
+          "disabled": false,
+          "label": "1965",
+          "value": "1965"
+        },
+        {
+          "disabled": false,
+          "label": "1964",
+          "value": "1964"
+        },
+        {
+          "disabled": false,
+          "label": "1963",
+          "value": "1963"
+        },
+        {
+          "disabled": false,
+          "label": "1962",
+          "value": "1962"
+        },
+        {
+          "disabled": false,
+          "label": "1961",
+          "value": "1961"
+        },
+        {
+          "disabled": false,
+          "label": "1960",
+          "value": "1960"
+        },
+        {
+          "disabled": false,
+          "label": "1959",
+          "value": "1959"
+        },
+        {
+          "disabled": false,
+          "label": "1958",
+          "value": "1958"
+        },
+        {
+          "disabled": false,
+          "label": "1957",
+          "value": "1957"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"gradYear\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "2026"
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What is this school's language of instruction? *",
+      "invalid": false,
+      "key": "i:langOfInstruction",
+      "label": "",
+      "name": "currentAcadHistFrHighSchool.languageCode",
+      "options": [
+        {
+          "disabled": false,
+          "label": "Language *",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "Arabic",
+          "value": "AR"
+        },
+        {
+          "disabled": false,
+          "label": "Armenian",
+          "value": "AN"
+        },
+        {
+          "disabled": false,
+          "label": "Bengali",
+          "value": "BE"
+        },
+        {
+          "disabled": false,
+          "label": "Chinese",
+          "value": "CH"
+        },
+        {
+          "disabled": false,
+          "label": "English",
+          "value": "EN"
+        },
+        {
+          "disabled": false,
+          "label": "French",
+          "value": "FR"
+        },
+        {
+          "disabled": false,
+          "label": "German",
+          "value": "GE"
+        },
+        {
+          "disabled": false,
+          "label": "Greek",
+          "value": "GR"
+        },
+        {
+          "disabled": false,
+          "label": "Hebrew",
+          "value": "HW"
+        },
+        {
+          "disabled": false,
+          "label": "Hindi/Urdu",
+          "value": "HD"
+        },
+        {
+          "disabled": false,
+          "label": "Hmong",
+          "value": "HM"
+        },
+        {
+          "disabled": false,
+          "label": "Hungarian",
+          "value": "HU"
+        },
+        {
+          "disabled": false,
+          "label": "Italian",
+          "value": "IT"
+        },
+        {
+          "disabled": false,
+          "label": "Japanese",
+          "value": "JP"
+        },
+        {
+          "disabled": false,
+          "label": "Korean",
+          "value": "KO"
+        },
+        {
+          "disabled": false,
+          "label": "Lao",
+          "value": "LA"
+        },
+        {
+          "disabled": false,
+          "label": "Malay",
+          "value": "ML"
+        },
+        {
+          "disabled": false,
+          "label": "Mon-Khmer",
+          "value": "MK"
+        },
+        {
+          "disabled": false,
+          "label": "Navajo",
+          "value": "NV"
+        },
+        {
+          "disabled": false,
+          "label": "Persian (Farsi)",
+          "value": "PE"
+        },
+        {
+          "disabled": false,
+          "label": "Polish",
+          "value": "PL"
+        },
+        {
+          "disabled": false,
+          "label": "Portuguese",
+          "value": "PO"
+        },
+        {
+          "disabled": false,
+          "label": "Punjabi",
+          "value": "PJ"
+        },
+        {
+          "disabled": false,
+          "label": "Russian",
+          "value": "RU"
+        },
+        {
+          "disabled": false,
+          "label": "Spanish",
+          "value": "SP"
+        },
+        {
+          "disabled": false,
+          "label": "Tagalog",
+          "value": "TG"
+        },
+        {
+          "disabled": false,
+          "label": "Thai",
+          "value": "TH"
+        },
+        {
+          "disabled": false,
+          "label": "Turkish",
+          "value": "TU"
+        },
+        {
+          "disabled": false,
+          "label": "Vietnamese",
+          "value": "VI"
+        },
+        {
+          "disabled": false,
+          "label": "Other",
+          "value": "OT"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"langOfInstruction\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "value": "EN"
+    }
+  ],
+  "frames_present": false,
+  "schema": "observed-page/1",
+  "title": "High school information - Academic history - UC application",
+  "url": "https://apply.universityofcalifornia.edu/my-application/acadHistFrInfo?action=edit&schId=424242"
+}

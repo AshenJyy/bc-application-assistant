@@ -1,0 +1,105 @@
+{
+  "schema": "common-ielts-contract/1",
+  "path": "/common/2/10",
+  "title": "My Common Application | Common App",
+  "heading": "IELTS",
+  "content_sha256": "e709c7067519a47e348f1c3a449241a3daadd88158cf13af5a59c12663723a9f",
+  "fields": [
+    {
+      "key": "i:text_ques_159",
+      "label": "Number of times you have already taken the IELTS",
+      "group": "",
+      "control": "choice_input",
+      "required": true,
+      "fact": "exams.ielts.taken_count"
+    },
+    {
+      "key": "r:ques_160",
+      "label": "Number of future IELTS sittings you expect",
+      "group": "Number of future IELTS sittings you expect",
+      "control": "radio",
+      "required": true,
+      "fact": "exams.ielts.retake_planned"
+    },
+    {
+      "key": "i:text_ques_164",
+      "label": "Highest listening score",
+      "group": "",
+      "control": "choice_input",
+      "required": true,
+      "fact": "$exam.listening"
+    },
+    {
+      "key": "i:text_ques_165",
+      "label": "Listening score date",
+      "group": "",
+      "control": "text",
+      "required": true,
+      "fact": "$exam.date"
+    },
+    {
+      "key": "i:text_ques_166",
+      "label": "Highest reading score",
+      "group": "",
+      "control": "choice_input",
+      "required": true,
+      "fact": "$exam.reading"
+    },
+    {
+      "key": "i:text_ques_167",
+      "label": "Reading score date",
+      "group": "",
+      "control": "text",
+      "required": true,
+      "fact": "$exam.date"
+    },
+    {
+      "key": "i:text_ques_168",
+      "label": "Highest writing score",
+      "group": "",
+      "control": "choice_input",
+      "required": true,
+      "fact": "$exam.writing"
+    },
+    {
+      "key": "i:text_ques_169",
+      "label": "Writing score date",
+      "group": "",
+      "control": "text",
+      "required": true,
+      "fact": "$exam.date"
+    },
+    {
+      "key": "i:text_ques_170",
+      "label": "Highest speaking score",
+      "group": "",
+      "control": "choice_input",
+      "required": true,
+      "fact": "$exam.speaking"
+    },
+    {
+      "key": "i:text_ques_171",
+      "label": "Speaking score date",
+      "group": "",
+      "control": "text",
+      "required": true,
+      "fact": "$exam.date"
+    },
+    {
+      "key": "i:text_ques_1794",
+      "label": "Highest IELTS overall band score",
+      "group": "",
+      "control": "choice_input",
+      "required": true,
+      "fact": "$exam.score"
+    },
+    {
+      "key": "i:text_ques_1795",
+      "label": "IELTS overall band score date",
+      "group": "",
+      "control": "text",
+      "required": true,
+      "fact": "$exam.date"
+    }
+  ]
+}

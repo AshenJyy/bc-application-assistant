@@ -1,0 +1,181 @@
+{
+  "schema": "observed-state/1",
+  "coverage": "uc_visible_review_and_draft",
+  "page_url": "https://apply.universityofcalifornia.edu/my-application/accountPersonal",
+  "review_url": "https://apply.universityofcalifornia.edu/my-application/reviewSubmit",
+  "status_url": "https://apply.universityofcalifornia.edu/my-application/appStatus",
+  "term": "Fall quarter/semester 2027",
+  "draft_marker": "Open application",
+  "sections": [
+    {
+      "label": "About you",
+      "completion_text": "Section Complete",
+      "pages": [
+        {
+          "href": "/my-application/accountPersonal",
+          "label": "Edit Personal information"
+        },
+        {
+          "href": "/my-application/applicationAddress",
+          "label": "Edit Contact information"
+        },
+        {
+          "href": "/my-application/applicationResidency",
+          "label": "Edit Citizenship and residency"
+        },
+        {
+          "href": "/my-application/demographics",
+          "label": "Edit Demographics"
+        },
+        {
+          "href": "/my-application/bioInfo",
+          "label": "Edit Your background"
+        },
+        {
+          "href": "/my-application/bioHousehold",
+          "label": "Edit Your household"
+        },
+        {
+          "href": "/my-application/bioFamily",
+          "label": "Edit Parent information"
+        },
+        {
+          "href": "/my-application/slrIntroduction",
+          "label": "Edit Statement of Legal Residence"
+        }
+      ]
+    },
+    {
+      "label": "Campuses & majors",
+      "completion_text": "Section Complete",
+      "pages": [
+        {
+          "href": "/my-application/values",
+          "label": "Edit UC values"
+        },
+        {
+          "href": "/my-application/level",
+          "label": "Edit Level"
+        },
+        {
+          "href": "/my-application/campusMap",
+          "label": "Edit Choose campuses"
+        },
+        {
+          "href": "/my-application/campusmajor",
+          "label": "Edit Choose majors"
+        }
+      ]
+    },
+    {
+      "label": "Academic history",
+      "completion_text": "Section Complete",
+      "pages": [
+        {
+          "href": "/my-application/acadHistFrGrade78",
+          "label": "Edit 7th & 8th grade"
+        },
+        {
+          "href": "/my-application/acadhistFrHighSchool",
+          "label": "Edit High schools"
+        },
+        {
+          "href": "/my-application/acadHistFrGrades/09",
+          "label": "Edit grade"
+        },
+        {
+          "href": "/my-application/acadHistFrGrades/10",
+          "label": "Edit grade"
+        },
+        {
+          "href": "/my-application/acadHistFrGrades/11",
+          "label": "Edit grade"
+        },
+        {
+          "href": "/my-application/acadHistFrGrades/12",
+          "label": "Edit grade"
+        },
+        {
+          "href": "/my-application/acadHistFrCollege",
+          "label": "Edit Colleges"
+        },
+        {
+          "href": "/my-application/acadHistFrCollegeCoursesMain",
+          "label": "Edit College courses taken in high school"
+        },
+        {
+          "href": "/my-application/acadHistAddInformation",
+          "label": "Edit Additional information"
+        }
+      ]
+    },
+    {
+      "label": "Test scores",
+      "completion_text": "",
+      "pages": [
+        {
+          "href": "/my-application/testScoreAp",
+          "label": "To do AP exams"
+        },
+        {
+          "href": "/my-application/testScoreIb",
+          "label": "To do IB exams"
+        },
+        {
+          "href": "/my-application/testScoreToefl",
+          "label": "To do English language proficiency test"
+        },
+        {
+          "href": "/my-application/testScoreAddToeflElpt?testType=3",
+          "label": "To do Reported test"
+        },
+        {
+          "href": "/my-application/testScoreIntlExam",
+          "label": "To do International exams"
+        }
+      ]
+    },
+    {
+      "label": "Activities & awards",
+      "completion_text": "Section Complete",
+      "pages": [
+        {
+          "href": "/my-application/introactivitiesawards",
+          "label": "Edit Activities/Awards"
+        }
+      ]
+    },
+    {
+      "label": "Scholarships & support programs",
+      "completion_text": "Section Complete",
+      "pages": [
+        {
+          "href": "/my-application/apply-scholarships",
+          "label": "Edit Scholarships"
+        },
+        {
+          "href": "/my-application/support-programs",
+          "label": "Edit Support programs"
+        }
+      ]
+    },
+    {
+      "label": "Personal insight",
+      "completion_text": "",
+      "pages": [
+        {
+          "href": "/my-application/insight-intro",
+          "label": "To do Introduction"
+        },
+        {
+          "href": "/my-application/personal-questions",
+          "label": "To do Personal insight questions"
+        },
+        {
+          "href": "/my-application/additional-comments",
+          "label": "To do Additional comments"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "observed-page/1",
+  "url": "https://apply.universityofcalifornia.edu/my-application/acadHistAddInformation",
+  "title": "Additional information - Academic history - UC application",
+  "frames_present": false,
+  "fields": [
+    {
+      "key": "i:additional_comments",
+      "selector": "[id=\"additional_comments\"]",
+      "selector_count": 1,
+      "selector_index": 0,
+      "name": "academicComments",
+      "label": "additional comments",
+      "group": "",
+      "control": "textarea",
+      "value": "",
+      "options": [],
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "invalid": false
+    }
+  ],
+  "actions": [
+    {
+      "key": "i:save-btn",
+      "label": "Save & continue",
+      "selector": "[id=\"save-btn\"]",
+      "disabled": false
+    }
+  ]
+}

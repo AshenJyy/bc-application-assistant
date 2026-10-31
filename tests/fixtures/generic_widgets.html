@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>Invented widget application draft</title>
+<style>
+body{font:17px system-ui;max-width:780px;margin:24px auto;color:#183354;background:#edf3fa}
+header,form{padding:20px;background:white;border:1px solid #a9bdd4;margin:12px 0}
+.row{margin:16px 0}.question{display:block;margin:6px 0}.combo{border:1px solid #789;padding:8px;max-width:420px}
+.combo>label{display:block;cursor:pointer}.combo select,.combo input{display:none}
+[role=listbox]{position:relative;background:white;border:1px solid #678;max-height:250px;overflow:auto}
+[role=option]{padding:8px;cursor:pointer}[role=option]:hover{background:#dce9fa}
+input,button,select{font:inherit;padding:6px}[role=dialog]{background:#eee;padding:16px}
+.ui-message-error{color:#b00}output{display:block;padding:10px}
+</style>
+<header><strong>Invented university — synthetic widget test</strong><p>Development data only</p></header>
+<form id="factualForm" method="post"><h2>Factual applicant details</h2>
+<p>Use confirmed factual answers and complete dates.</p>
+<div class="row"><label class="question" for="officialName">Official given names *</label><input id="officialName" required></div>
+<section><div class="question">Residence country *</div><div id="residenceCountry" class="combo" role="combobox" aria-expanded="false" aria-owns="residenceOptions">
+<select onchange="revealNativeHint()"><option value="">Choose</option><option value="country_ca">Canada</option><option value="country_cn">China</option></select><label id="residenceLabel">Choose</label></div>
+<div id="residenceCityRow"><div class="question">City *</div><div id="residenceCity" class="combo" role="combobox" aria-expanded="false" aria-owns="residenceCityOptions"><select><option value="">Choose</option><option value="city_1">Example City</option></select><label id="residenceCityLabel">Choose</label></div></div></section>
+<section><div class="question">Mailing country *</div><div id="mailingCountry" class="combo" role="combobox" aria-expanded="false" aria-owns="mailingOptions">
+<select><option value="">Choose</option><option value="mail_ca">Canada</option><option value="mail_cn">China</option></select><label id="mailingLabel">Choose</label></div>
+<div class="question">City *</div><div id="mailingCity" class="combo" role="combobox" aria-expanded="false" aria-owns="mailingCityOptions"><select><option value="">Choose</option><option value="other_1">Example City</option></select><label id="mailingCityLabel">Choose</label></div></section>
+<div class="row"><label class="question" for="birthDate">Birth date *</label><span><input id="birthDate" readonly data-p-pattern="dd-mm-yy"><button type="button" aria-haspopup="true">Show Calendar</button></span></div>
+<div id="nativeHint" style="display:none">Native change observed</div><button id="saveDraft" type="submit">Save draft</button><div id="errors" role="alert"></div>
+</form><output role="status" id="status">Draft not saved</output>
+<section><h2>Prior institutions</h2><button id="addRecord" type="button">Add institution</button><div id="recordRows"></div></section>
+<div id="recordDialog" role="dialog" aria-labelledby="recordHeading" style="display:none">
+<h3 id="recordHeading">Institution record</h3><form id="recordForm" method="post">
+<div class="row"><label for="institutionName">Institution name *</label><input id="institutionName" required></div>
+<div class="row"><div class="question">Study period *</div><div>
+<span><input id="studyFrom" readonly placeholder="From" data-p-pattern="dd-mm-yy"><button type="button" aria-haspopup="true">Show Calendar</button></span>
+<span><input id="studyTo" readonly placeholder="To" data-p-pattern="dd-mm-yy"><button type="button" aria-haspopup="true">Show Calendar</button></span>
+</div></div><button id="recordSave" type="submit">Save</button><button id="recordCancel" type="button">Cancel</button><div id="recordError"></div></form></div>
+<div id="loader" role="dialog" style="display:none"><img alt="" width="20" height="20"></div>
+<div id="calendar" style="display:none"><select aria-label="select year"></select><select aria-label="select month"></select><table><tbody></tbody></table></div>
+<script>
+const saved=JSON.parse(localStorage.getItem('bc-widget-v27')||'null');
+function revealNativeHint(){document.getElementById('nativeHint').style.display='block';}
+for(const combo of document.querySelectorAll('.combo')){
+ const select=combo.querySelector('select'),label=combo.querySelector(':scope > label'),panel=document.createElement('div');
+ panel.id=combo.getAttribute('aria-owns');panel.setAttribute('role','listbox');panel.style.display='none';document.body.append(panel);
+ for(const [i,option] of Array.from(select.options).entries()){
+  const item=document.createElement('div');item.id=panel.id+'_item_'+i;item.setAttribute('role','option');item.textContent=option.textContent;
+  item.onclick=()=>{select.value=option.value;label.textContent=option.textContent;combo.setAttribute('aria-expanded','false');panel.style.display='none';
+   if(combo.id==='residenceCountry'){document.getElementById('loader').style.display='block';document.getElementById('residenceCityRow').style.display=option.textContent==='China'?'none':'';setTimeout(()=>document.getElementById('loader').style.display='none',200);}};
+  panel.append(item);
+ }
+ label.onclick=()=>{panel.style.display='block';combo.setAttribute('aria-expanded','true');};
+ if(saved?.[combo.id]){select.value=saved[combo.id];label.textContent=select.selectedOptions[0].textContent;}
+}
+if(saved){officialName.value=saved.officialName;birthDate.value=saved.birthDate;document.getElementById('status').textContent='Saved draft loaded';residenceCityRow.style.display=residenceCountry.querySelector('select').selectedOptions[0].textContent==='China'?'none':'';}
+const year=calendar.querySelector('[aria-label="select year"]'),month=calendar.querySelector('[aria-label="select month"]');
+for(let y=2000;y<=2030;y++)year.add(new Option(String(y),String(y)));
+for(let m=0;m<12;m++)month.add(new Option(String(m+1),String(m)));
+function days(){const body=calendar.querySelector('tbody');body.replaceChildren();const row=document.createElement('tr');
+ for(let day=1;day<=new Date(Number(year.value),Number(month.value)+1,0).getDate();day++){
+  const td=document.createElement('td');td.dataset.year=year.value;td.dataset.month=month.value;const a=document.createElement('a');a.href='#';a.textContent=String(day);
+  a.onclick=e=>{e.preventDefault();activeDateInput.value=String(day).padStart(2,'0')+'-'+String(Number(month.value)+1).padStart(2,'0')+'-'+year.value;calendar.style.display='none';};td.append(a);row.append(td);
+ }body.append(row);}
+year.onchange=month.onchange=days;
+let activeDateInput=birthDate;
+for(const trigger of document.querySelectorAll('button[aria-haspopup=true]'))trigger.onclick=()=>{activeDateInput=trigger.parentElement.querySelector('input');calendar.style.display='block';days();};
+document.querySelector('form').onsubmit=e=>{e.preventDefault();errors.replaceChildren();
+ const data={officialName:officialName.value,birthDate:birthDate.value};for(const c of document.querySelectorAll('.combo'))data[c.id]=c.querySelector('select').value;
+ if(!data.birthDate||!data.mailingCountry||!data.mailingCity||!data.residenceCountry){errors.className='ui-message-error';errors.textContent='Complete required factual fields';return;}
+ errors.className='';localStorage.setItem('bc-widget-v27',JSON.stringify(data));document.getElementById('status').textContent='Draft saved';};
+let records=JSON.parse(localStorage.getItem('bc-record-v28')||'[]'),editing=-1;
+function renderRecords(){const out=document.getElementById('recordRows');out.replaceChildren();for(const [i,r] of records.entries()){
+ const p=document.createElement('p');p.textContent=r.name+' | '+r.from+' — '+r.to+' ';const b=document.createElement('button');b.type='button';b.textContent='Edit '+r.name;b.onclick=()=>openRecord(i);p.append(b);out.append(p);}}
+function openRecord(index){editing=index;const r=records[index]||{};institutionName.value=r.name||'';studyFrom.value=r.from||'';studyTo.value=r.to||'';recordError.textContent='';recordError.className='';recordDialog.style.display='block';}
+addRecord.onclick=()=>openRecord(-1);recordCancel.onclick=()=>recordDialog.style.display='none';
+recordForm.onsubmit=e=>{e.preventDefault();if(!institutionName.value||!studyFrom.value||!studyTo.value){recordError.className='ui-message-error';recordError.textContent='Complete institution and both dates';return;}
+ const r={name:institutionName.value,from:studyFrom.value,to:studyTo.value};if(editing<0)records.push(r);else records[editing]=r;
+ localStorage.setItem('bc-record-v28',JSON.stringify(records));recordDialog.style.display='none';renderRecords();};renderRecords();
+</script></html>

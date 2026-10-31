@@ -1,0 +1,278 @@
+{
+  "actions": [
+    {
+      "disabled": false,
+      "key": "a::0",
+      "label": "",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Necessary:1",
+      "label": "Necessary",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Functional:2",
+      "label": "Functional",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Analytics:3",
+      "label": "Analytics",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Advertisement:4",
+      "label": "Advertisement",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Reject All:5",
+      "label": "Reject All",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Save My Preferences:6",
+      "label": "Save My Preferences",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Accept All:7",
+      "label": "Accept All",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "i:mainNavCommonApp",
+      "label": "My Common Application",
+      "selector": "[id=\"mainNavCommonApp\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:mainNavMyColleges",
+      "label": "My Colleges",
+      "selector": "[id=\"mainNavMyColleges\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:mainDirectAdmissions",
+      "label": "Direct admissions",
+      "selector": "[id=\"mainDirectAdmissions\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:mainNavFinAid",
+      "label": "Financial aid",
+      "selector": "[id=\"mainNavFinAid\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:mainNavSettings",
+      "label": "SettingsOpens dialog",
+      "selector": "[id=\"mainNavSettings\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:mainNavSignOut",
+      "label": "Sign out",
+      "selector": "[id=\"mainNavSignOut\"]"
+    },
+    {
+      "disabled": false,
+      "key": "a:Avatar, white silhouette on blue gradient backgroundUser information, Opens dialog:14",
+      "label": "Avatar, white silhouette on blue gradient backgroundUser information, Opens dialog",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:Preview Profile Section, Opens dialog:15",
+      "label": "Preview Profile Section, Opens dialog",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "i:clear_ques_1975",
+      "label": "Clear answer",
+      "selector": "[id=\"clear_ques_1975\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:clear_ques_177",
+      "label": "Clear answer",
+      "selector": "[id=\"clear_ques_177\"]"
+    },
+    {
+      "disabled": false,
+      "key": "a::18",
+      "label": "",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "i:sectionContinue11",
+      "label": "Continue to next section",
+      "selector": "[id=\"sectionContinue11\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:appFaqSearchButton",
+      "label": "Search",
+      "selector": "[id=\"appFaqSearchButton\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:helpTopicExpandArticle0",
+      "label": "Read full answer",
+      "selector": "[id=\"helpTopicExpandArticle0\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:footerPrivacyLegalMenu",
+      "label": "Privacy and legal",
+      "selector": "[id=\"footerPrivacyLegalMenu\"]"
+    },
+    {
+      "disabled": false,
+      "key": "i:footerSocialMenu",
+      "label": "Social",
+      "selector": "[id=\"footerSocialMenu\"]"
+    }
+  ],
+  "fields": [
+    {
+      "control": "textarea",
+      "disabled": false,
+      "group": "",
+      "invalid": false,
+      "key": "i:text_ques_173",
+      "label": "First name",
+      "name": "",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"text_ques_173\"]",
+      "value": ""
+    },
+    {
+      "control": "textarea",
+      "disabled": false,
+      "group": "",
+      "invalid": false,
+      "key": "i:text_ques_175",
+      "label": "Last name",
+      "name": "",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"text_ques_175\"]",
+      "value": ""
+    },
+    {
+      "control": "radio",
+      "disabled": false,
+      "group": "Would you like to share a different first name that people call you?",
+      "invalid": false,
+      "key": "n:mat-radio-group-0",
+      "label": "Would you like to share a different first name that people call you?",
+      "name": "mat-radio-group-0",
+      "options": [
+        {
+          "disabled": false,
+          "label": "Yes",
+          "selector": "[id=\"option_ques_1975_2371-input\"]",
+          "value": "0"
+        },
+        {
+          "disabled": false,
+          "label": "No",
+          "selector": "[id=\"option_ques_1975_2372-input\"]",
+          "value": "1"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"option_ques_1975_2371-input\"]",
+      "value": ""
+    },
+    {
+      "control": "textarea",
+      "disabled": false,
+      "group": "",
+      "invalid": false,
+      "key": "i:text_ques_174",
+      "label": "Middle name",
+      "name": "",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"text_ques_174\"]",
+      "value": ""
+    },
+    {
+      "control": "unsupported",
+      "disabled": false,
+      "group": "",
+      "invalid": false,
+      "key": "i:text_ques_176",
+      "label": "Suffix",
+      "name": "",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"text_ques_176\"]",
+      "value": ""
+    },
+    {
+      "control": "radio",
+      "disabled": false,
+      "group": "Do you have any materials under a former legal name?",
+      "invalid": false,
+      "key": "n:mat-radio-group-3",
+      "label": "Do you have any materials under a former legal name?",
+      "name": "mat-radio-group-3",
+      "options": [
+        {
+          "disabled": false,
+          "label": "Yes",
+          "selector": "[id=\"option_ques_177_2371-input\"]",
+          "value": "0"
+        },
+        {
+          "disabled": false,
+          "label": "No",
+          "selector": "[id=\"option_ques_177_2372-input\"]",
+          "value": "1"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"option_ques_177_2371-input\"]",
+      "value": ""
+    },
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "",
+      "invalid": false,
+      "key": "i:text_ques_181",
+      "label": "Date of birth",
+      "name": "",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"text_ques_181\"]",
+      "value": ""
+    }
+  ],
+  "frames_present": false,
+  "schema": "observed-page/1",
+  "title": "Synthetic Common App personal-information page",
+  "url": "https://apply.commonapp.org/common/3/11"
+}

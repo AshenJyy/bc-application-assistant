@@ -1,0 +1,310 @@
+[
+  {
+    "path": "/my-application/applicationResidency",
+    "kind": "citizenship_residency",
+    "title": "Citizenship & residency - About you - UC application",
+    "heading": "Citizenship & residency",
+    "review_label": "Edit Citizenship and residency",
+    "section": "About you",
+    "fields": [
+      {
+        "key": "i:country",
+        "label": "Country *",
+        "group": "What is your country of citizenship? ?",
+        "control": "select",
+        "required": true,
+        "fact": "personal.citizenship"
+      },
+      {
+        "key": "n:citizenshipStatus",
+        "label": "What will your citizenship status be on the date you submit this application? *",
+        "group": "What will your citizenship status be on the date you submit this application? *",
+        "control": "radio",
+        "required": true,
+        "fact": "personal.uc_citizenship_category"
+      },
+      {
+        "key": "n:hasCurrentVisa",
+        "label": "Do you currently have a U.S. visa? *",
+        "group": "Do you currently have a U.S. visa? *",
+        "control": "radio",
+        "required": true,
+        "fact": "personal.has_current_us_visa"
+      },
+      {
+        "key": "i:current-visa",
+        "label": "Current visa type *",
+        "group": "",
+        "control": "select",
+        "required": true,
+        "fact": "personal.current_us_visa"
+      },
+      {
+        "key": "n:hasPlannedVisa",
+        "label": "By the time you attend UC, will you have a different visa?",
+        "group": "By the time you attend UC, will you have a different visa?",
+        "control": "radio",
+        "required": true,
+        "fact": "personal.plans_different_us_visa"
+      },
+      {
+        "key": "i:plannedVisa2",
+        "label": "Planned visa type *",
+        "group": "Do you currently have a U.S. visa? *",
+        "control": "select",
+        "required": true,
+        "fact": "personal.planned_us_visa"
+      },
+      {
+        "key": "n:hasSsn",
+        "label": "Do you have a U.S. Social Security number or an Individual Taxpayer Identification Number (ITIN)?",
+        "group": "Do you have a U.S. Social Security number or an Individual Taxpayer Identification Number (ITIN)?",
+        "control": "radio",
+        "required": true,
+        "fact": "personal.has_us_ssn_or_itin"
+      }
+    ]
+  },
+  {
+    "path": "/my-application/bioInfo",
+    "kind": "background",
+    "title": "Your background - About you - UC application",
+    "heading": "Your background",
+    "review_label": "Edit Your background",
+    "section": "About you",
+    "fields": [
+      {
+        "key": "i:lang_first_code",
+        "label": "Language *",
+        "group": "What language did you learn to speak first?*",
+        "control": "select",
+        "required": true,
+        "fact": "education.first_language"
+      },
+      {
+        "key": "i:lang_second_code",
+        "label": "Other language *",
+        "group": "What was the other language?",
+        "control": "select",
+        "required": true,
+        "fact": "education.first_language"
+      },
+      {
+        "key": "i:married-yes",
+        "label": "I am married or in a civil union/registered domestic partnership",
+        "group": "Please tell us more about yourself",
+        "control": "checkbox",
+        "required": false,
+        "fact": null
+      },
+      {
+        "key": "i:children-yes",
+        "label": "I have children",
+        "group": "Please tell us more about yourself",
+        "control": "checkbox",
+        "required": false,
+        "fact": null
+      },
+      {
+        "key": "i:foster-yes",
+        "label": "I am or have been in foster care or a ward of the court in the United States",
+        "group": "Please tell us more about yourself",
+        "control": "checkbox",
+        "required": false,
+        "fact": null
+      },
+      {
+        "key": "i:homelessYes",
+        "label": "I am unaccompanied and either homeless OR self-supporting and at risk of being homeless",
+        "group": "Please tell us more about yourself",
+        "control": "checkbox",
+        "required": false,
+        "fact": null
+      },
+      {
+        "key": "i:yes-military",
+        "label": "By the first day of classes, I will be a current or former member of the U.S. Armed Forces",
+        "group": "Please tell us more about yourself",
+        "control": "checkbox",
+        "required": false,
+        "fact": null
+      },
+      {
+        "key": "i:yes-none-of-above",
+        "label": "None of the above apply to me",
+        "group": "Please tell us more about yourself",
+        "control": "checkbox",
+        "required": false,
+        "fact": null
+      },
+      {
+        "key": "n:bioDO.isMilitaryDependent",
+        "label": "Are you a dependent of a U.S. military veteran or service member? ?",
+        "group": "Are you a dependent of a U.S. military veteran or service member? ?",
+        "control": "radio",
+        "required": false,
+        "fact": null
+      }
+    ]
+  },
+  {
+    "path": "/my-application/acadHistFrGrade78",
+    "kind": "grade78",
+    "title": "7th and 8th grade - Academic history - UC application",
+    "heading": "7th & 8th grade",
+    "review_label": "Edit 7th & 8th grade",
+    "section": "Academic history",
+    "fields": [
+      {
+        "key": "n:applAcadHistFrGrade78AHStatus.mathFlag78th",
+        "label": "Did you take any high school-level math courses in 7th or 8th grade?",
+        "group": "Did you take any high school-level math courses in 7th or 8th grade?",
+        "control": "radio",
+        "required": true,
+        "fact": "education.middle_school.high_school_math"
+      },
+      {
+        "key": "n:applAcadHistFrGrade78AHStatus.languageFlag78th",
+        "label": "Did you take any courses in a language other than English in 7th or 8th grade?",
+        "group": "Did you take any courses in a language other than English in 7th or 8th grade?",
+        "control": "radio",
+        "required": true,
+        "fact": "education.middle_school.other_language_courses"
+      },
+      {
+        "key": "n:applAcadHistFrGrade78IntlExpDO.intlExpFlag",
+        "label": "Did you attend school outside the United States for any part of 6th through 8th grade?",
+        "group": "Did you attend school outside the United States for any part of 6th through 8th grade?",
+        "control": "radio",
+        "required": true,
+        "fact": "education.middle_school.outside_us"
+      },
+      {
+        "key": "i:langOfInstruction",
+        "label": "What was the language of instruction? *",
+        "group": "",
+        "control": "select",
+        "required": true,
+        "fact": "education.middle_school.instruction_language"
+      }
+    ]
+  },
+  {
+    "path": "/my-application/level",
+    "kind": "level",
+    "title": "Term & level - Campuses & majors - UC application",
+    "heading": "Term & level",
+    "review_label": "Edit Level",
+    "section": "Campuses & majors",
+    "fields": [
+      {
+        "key": "n:applyLevel",
+        "label": "My application level is: *",
+        "group": "My application level is: *",
+        "control": "radio",
+        "required": true,
+        "fact": "education.application_level"
+      }
+    ]
+  },
+  {
+    "path": "/my-application/testScoreAddToeflElpt?testType=3",
+    "kind": "ielts",
+    "title": "Add English language proficiency test - Test Score - UC application",
+    "heading": "Add English language proficiency test",
+    "review_label": "Edit Reported test",
+    "section": "Test scores",
+    "exam_system": "IELTS",
+    "exam_name": "IELTS Academic",
+    "fields": [
+      {
+        "key": "n:toeflDO.isCompleted",
+        "label": "Add IELTS-Academic Is this test completed or planned? *",
+        "group": "Add IELTS-Academic Is this test completed or planned? *",
+        "control": "radio",
+        "required": true,
+        "fact": "exams.ielts.completed"
+      },
+      {
+        "key": "i:takenMonth",
+        "label": "Month *",
+        "group": "When did you take this test? *",
+        "control": "select",
+        "required": true,
+        "fact": "$exam.date"
+      },
+      {
+        "key": "i:takenYear",
+        "label": "Year *",
+        "group": "When did you take this test? *",
+        "control": "select",
+        "required": true,
+        "fact": "$exam.date"
+      },
+      {
+        "key": "i:ieltsFormNumber",
+        "label": "",
+        "group": "Test report form number",
+        "control": "text",
+        "required": false,
+        "fact": "$exam.report_number"
+      },
+      {
+        "key": "n:toeflDO.hasReceivedScore",
+        "label": "Have you received your scores yet? *",
+        "group": "Have you received your scores yet? *",
+        "control": "radio",
+        "required": true,
+        "fact": "exams.ielts.score_received"
+      },
+      {
+        "key": "i:ieltsListeningScore",
+        "label": "Listening *",
+        "group": "Scores",
+        "control": "select",
+        "required": true,
+        "fact": "$exam.listening"
+      },
+      {
+        "key": "i:ieltsReadingScore",
+        "label": "Reading *",
+        "group": "Scores",
+        "control": "select",
+        "required": true,
+        "fact": "$exam.reading"
+      },
+      {
+        "key": "i:ieltsWritingScore",
+        "label": "Writing *",
+        "group": "Scores",
+        "control": "select",
+        "required": true,
+        "fact": "$exam.writing"
+      },
+      {
+        "key": "i:ieltsSpeakingScore",
+        "label": "Speaking *",
+        "group": "Scores",
+        "control": "select",
+        "required": true,
+        "fact": "$exam.speaking"
+      },
+      {
+        "key": "i:ieltsOverallScore",
+        "label": "Overall band score *",
+        "group": "Scores",
+        "control": "select",
+        "required": true,
+        "fact": "$exam.score"
+      },
+      {
+        "key": "n:toeflDO.isRetake",
+        "label": "Do you plan on retaking this test? *",
+        "group": "Do you plan on retaking this test? *",
+        "control": "radio",
+        "required": true,
+        "fact": "exams.ielts.retake_planned"
+      }
+    ]
+  }
+]

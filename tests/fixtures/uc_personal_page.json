@@ -1,0 +1,2135 @@
+{
+  "actions": [
+    {
+      "disabled": false,
+      "key": "a:?:0",
+      "label": "?",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "a:?:1",
+      "label": "?",
+      "selector": null
+    },
+    {
+      "disabled": false,
+      "key": "i:save",
+      "label": "Save & continue",
+      "selector": "[id=\"save\"]"
+    }
+  ],
+  "fields": [
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "What is your name?",
+      "invalid": false,
+      "key": "i:firstname",
+      "label": "First/Given name *",
+      "name": "firstName",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"firstname\"]",
+      "value": ""
+    },
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "What is your name?",
+      "invalid": false,
+      "key": "i:middlename",
+      "label": "Middle name",
+      "name": "middleName",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"middlename\"]",
+      "value": ""
+    },
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "What is your name?",
+      "invalid": false,
+      "key": "i:lastname",
+      "label": "Last / Family / Surname *",
+      "name": "lastName",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"lastname\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "What is your name?",
+      "invalid": false,
+      "key": "i:suffix",
+      "label": "Suffix",
+      "name": "suffixName",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "JR",
+          "value": "JR"
+        },
+        {
+          "disabled": false,
+          "label": "SR",
+          "value": "SR"
+        },
+        {
+          "disabled": false,
+          "label": "II",
+          "value": "II"
+        },
+        {
+          "disabled": false,
+          "label": "III",
+          "value": "III"
+        },
+        {
+          "disabled": false,
+          "label": "IV",
+          "value": "IV"
+        },
+        {
+          "disabled": false,
+          "label": "V",
+          "value": "V"
+        },
+        {
+          "disabled": false,
+          "label": "VI",
+          "value": "VI"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"suffix\"]",
+      "value": ""
+    },
+    {
+      "control": "radio",
+      "disabled": false,
+      "group": "Do you have a lived name?",
+      "invalid": false,
+      "key": "n:hasLivedName",
+      "label": "Do you have a lived name?",
+      "name": "hasLivedName",
+      "options": [
+        {
+          "disabled": false,
+          "label": "No",
+          "selector": "[id=\"hasLivedName1\"]",
+          "value": "N"
+        },
+        {
+          "disabled": false,
+          "label": "Yes",
+          "selector": "[id=\"livedName_yes\"]",
+          "value": "Y"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"hasLivedName1\"]",
+      "value": ""
+    },
+    {
+      "control": "radio",
+      "disabled": false,
+      "group": "Have you ever had a different legal name?",
+      "invalid": false,
+      "key": "n:otherNames",
+      "label": "Have you ever had a different legal name?",
+      "name": "otherNames",
+      "options": [
+        {
+          "disabled": false,
+          "label": "No",
+          "selector": "[id=\"no\"]",
+          "value": "no"
+        },
+        {
+          "disabled": false,
+          "label": "Yes",
+          "selector": "[id=\"yes\"]",
+          "value": "yes"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"no\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "When were you born?",
+      "invalid": false,
+      "key": "i:month",
+      "label": "Month *",
+      "name": "birthDateMM",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "January",
+          "value": "01"
+        },
+        {
+          "disabled": false,
+          "label": "February",
+          "value": "02"
+        },
+        {
+          "disabled": false,
+          "label": "March",
+          "value": "03"
+        },
+        {
+          "disabled": false,
+          "label": "April",
+          "value": "04"
+        },
+        {
+          "disabled": false,
+          "label": "May",
+          "value": "05"
+        },
+        {
+          "disabled": false,
+          "label": "June",
+          "value": "06"
+        },
+        {
+          "disabled": false,
+          "label": "July",
+          "value": "07"
+        },
+        {
+          "disabled": false,
+          "label": "August",
+          "value": "08"
+        },
+        {
+          "disabled": false,
+          "label": "September",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "October",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "November",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "December",
+          "value": "12"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"month\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "When were you born?",
+      "invalid": false,
+      "key": "i:day",
+      "label": "Day *",
+      "name": "birthDateDD",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "01",
+          "value": "01"
+        },
+        {
+          "disabled": false,
+          "label": "02",
+          "value": "02"
+        },
+        {
+          "disabled": false,
+          "label": "03",
+          "value": "03"
+        },
+        {
+          "disabled": false,
+          "label": "04",
+          "value": "04"
+        },
+        {
+          "disabled": false,
+          "label": "05",
+          "value": "05"
+        },
+        {
+          "disabled": false,
+          "label": "06",
+          "value": "06"
+        },
+        {
+          "disabled": false,
+          "label": "07",
+          "value": "07"
+        },
+        {
+          "disabled": false,
+          "label": "08",
+          "value": "08"
+        },
+        {
+          "disabled": false,
+          "label": "09",
+          "value": "09"
+        },
+        {
+          "disabled": false,
+          "label": "10",
+          "value": "10"
+        },
+        {
+          "disabled": false,
+          "label": "11",
+          "value": "11"
+        },
+        {
+          "disabled": false,
+          "label": "12",
+          "value": "12"
+        },
+        {
+          "disabled": false,
+          "label": "13",
+          "value": "13"
+        },
+        {
+          "disabled": false,
+          "label": "14",
+          "value": "14"
+        },
+        {
+          "disabled": false,
+          "label": "15",
+          "value": "15"
+        },
+        {
+          "disabled": false,
+          "label": "16",
+          "value": "16"
+        },
+        {
+          "disabled": false,
+          "label": "17",
+          "value": "17"
+        },
+        {
+          "disabled": false,
+          "label": "18",
+          "value": "18"
+        },
+        {
+          "disabled": false,
+          "label": "19",
+          "value": "19"
+        },
+        {
+          "disabled": false,
+          "label": "20",
+          "value": "20"
+        },
+        {
+          "disabled": false,
+          "label": "21",
+          "value": "21"
+        },
+        {
+          "disabled": false,
+          "label": "22",
+          "value": "22"
+        },
+        {
+          "disabled": false,
+          "label": "23",
+          "value": "23"
+        },
+        {
+          "disabled": false,
+          "label": "24",
+          "value": "24"
+        },
+        {
+          "disabled": false,
+          "label": "25",
+          "value": "25"
+        },
+        {
+          "disabled": false,
+          "label": "26",
+          "value": "26"
+        },
+        {
+          "disabled": false,
+          "label": "27",
+          "value": "27"
+        },
+        {
+          "disabled": false,
+          "label": "28",
+          "value": "28"
+        },
+        {
+          "disabled": false,
+          "label": "29",
+          "value": "29"
+        },
+        {
+          "disabled": false,
+          "label": "30",
+          "value": "30"
+        },
+        {
+          "disabled": false,
+          "label": "31",
+          "value": "31"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"day\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "When were you born?",
+      "invalid": false,
+      "key": "i:year",
+      "label": "Year *",
+      "name": "birthDateYYYY",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "2021",
+          "value": "2021"
+        },
+        {
+          "disabled": false,
+          "label": "2020",
+          "value": "2020"
+        },
+        {
+          "disabled": false,
+          "label": "2019",
+          "value": "2019"
+        },
+        {
+          "disabled": false,
+          "label": "2018",
+          "value": "2018"
+        },
+        {
+          "disabled": false,
+          "label": "2017",
+          "value": "2017"
+        },
+        {
+          "disabled": false,
+          "label": "2016",
+          "value": "2016"
+        },
+        {
+          "disabled": false,
+          "label": "2015",
+          "value": "2015"
+        },
+        {
+          "disabled": false,
+          "label": "2014",
+          "value": "2014"
+        },
+        {
+          "disabled": false,
+          "label": "2013",
+          "value": "2013"
+        },
+        {
+          "disabled": false,
+          "label": "2012",
+          "value": "2012"
+        },
+        {
+          "disabled": false,
+          "label": "2011",
+          "value": "2011"
+        },
+        {
+          "disabled": false,
+          "label": "2010",
+          "value": "2010"
+        },
+        {
+          "disabled": false,
+          "label": "2009",
+          "value": "2009"
+        },
+        {
+          "disabled": false,
+          "label": "2008",
+          "value": "2008"
+        },
+        {
+          "disabled": false,
+          "label": "2007",
+          "value": "2007"
+        },
+        {
+          "disabled": false,
+          "label": "2006",
+          "value": "2006"
+        },
+        {
+          "disabled": false,
+          "label": "2005",
+          "value": "2005"
+        },
+        {
+          "disabled": false,
+          "label": "2004",
+          "value": "2004"
+        },
+        {
+          "disabled": false,
+          "label": "2003",
+          "value": "2003"
+        },
+        {
+          "disabled": false,
+          "label": "2002",
+          "value": "2002"
+        },
+        {
+          "disabled": false,
+          "label": "2001",
+          "value": "2001"
+        },
+        {
+          "disabled": false,
+          "label": "2000",
+          "value": "2000"
+        },
+        {
+          "disabled": false,
+          "label": "1999",
+          "value": "1999"
+        },
+        {
+          "disabled": false,
+          "label": "1998",
+          "value": "1998"
+        },
+        {
+          "disabled": false,
+          "label": "1997",
+          "value": "1997"
+        },
+        {
+          "disabled": false,
+          "label": "1996",
+          "value": "1996"
+        },
+        {
+          "disabled": false,
+          "label": "1995",
+          "value": "1995"
+        },
+        {
+          "disabled": false,
+          "label": "1994",
+          "value": "1994"
+        },
+        {
+          "disabled": false,
+          "label": "1993",
+          "value": "1993"
+        },
+        {
+          "disabled": false,
+          "label": "1992",
+          "value": "1992"
+        },
+        {
+          "disabled": false,
+          "label": "1991",
+          "value": "1991"
+        },
+        {
+          "disabled": false,
+          "label": "1990",
+          "value": "1990"
+        },
+        {
+          "disabled": false,
+          "label": "1989",
+          "value": "1989"
+        },
+        {
+          "disabled": false,
+          "label": "1988",
+          "value": "1988"
+        },
+        {
+          "disabled": false,
+          "label": "1987",
+          "value": "1987"
+        },
+        {
+          "disabled": false,
+          "label": "1986",
+          "value": "1986"
+        },
+        {
+          "disabled": false,
+          "label": "1985",
+          "value": "1985"
+        },
+        {
+          "disabled": false,
+          "label": "1984",
+          "value": "1984"
+        },
+        {
+          "disabled": false,
+          "label": "1983",
+          "value": "1983"
+        },
+        {
+          "disabled": false,
+          "label": "1982",
+          "value": "1982"
+        },
+        {
+          "disabled": false,
+          "label": "1981",
+          "value": "1981"
+        },
+        {
+          "disabled": false,
+          "label": "1980",
+          "value": "1980"
+        },
+        {
+          "disabled": false,
+          "label": "1979",
+          "value": "1979"
+        },
+        {
+          "disabled": false,
+          "label": "1978",
+          "value": "1978"
+        },
+        {
+          "disabled": false,
+          "label": "1977",
+          "value": "1977"
+        },
+        {
+          "disabled": false,
+          "label": "1976",
+          "value": "1976"
+        },
+        {
+          "disabled": false,
+          "label": "1975",
+          "value": "1975"
+        },
+        {
+          "disabled": false,
+          "label": "1974",
+          "value": "1974"
+        },
+        {
+          "disabled": false,
+          "label": "1973",
+          "value": "1973"
+        },
+        {
+          "disabled": false,
+          "label": "1972",
+          "value": "1972"
+        },
+        {
+          "disabled": false,
+          "label": "1971",
+          "value": "1971"
+        },
+        {
+          "disabled": false,
+          "label": "1970",
+          "value": "1970"
+        },
+        {
+          "disabled": false,
+          "label": "1969",
+          "value": "1969"
+        },
+        {
+          "disabled": false,
+          "label": "1968",
+          "value": "1968"
+        },
+        {
+          "disabled": false,
+          "label": "1967",
+          "value": "1967"
+        },
+        {
+          "disabled": false,
+          "label": "1966",
+          "value": "1966"
+        },
+        {
+          "disabled": false,
+          "label": "1965",
+          "value": "1965"
+        },
+        {
+          "disabled": false,
+          "label": "1964",
+          "value": "1964"
+        },
+        {
+          "disabled": false,
+          "label": "1963",
+          "value": "1963"
+        },
+        {
+          "disabled": false,
+          "label": "1962",
+          "value": "1962"
+        },
+        {
+          "disabled": false,
+          "label": "1961",
+          "value": "1961"
+        },
+        {
+          "disabled": false,
+          "label": "1960",
+          "value": "1960"
+        },
+        {
+          "disabled": false,
+          "label": "1959",
+          "value": "1959"
+        },
+        {
+          "disabled": false,
+          "label": "1958",
+          "value": "1958"
+        },
+        {
+          "disabled": false,
+          "label": "1957",
+          "value": "1957"
+        },
+        {
+          "disabled": false,
+          "label": "1956",
+          "value": "1956"
+        },
+        {
+          "disabled": false,
+          "label": "1955",
+          "value": "1955"
+        },
+        {
+          "disabled": false,
+          "label": "1954",
+          "value": "1954"
+        },
+        {
+          "disabled": false,
+          "label": "1953",
+          "value": "1953"
+        },
+        {
+          "disabled": false,
+          "label": "1952",
+          "value": "1952"
+        },
+        {
+          "disabled": false,
+          "label": "1951",
+          "value": "1951"
+        },
+        {
+          "disabled": false,
+          "label": "1950",
+          "value": "1950"
+        },
+        {
+          "disabled": false,
+          "label": "1949",
+          "value": "1949"
+        },
+        {
+          "disabled": false,
+          "label": "1948",
+          "value": "1948"
+        },
+        {
+          "disabled": false,
+          "label": "1947",
+          "value": "1947"
+        },
+        {
+          "disabled": false,
+          "label": "1946",
+          "value": "1946"
+        },
+        {
+          "disabled": false,
+          "label": "1945",
+          "value": "1945"
+        },
+        {
+          "disabled": false,
+          "label": "1944",
+          "value": "1944"
+        },
+        {
+          "disabled": false,
+          "label": "1943",
+          "value": "1943"
+        },
+        {
+          "disabled": false,
+          "label": "1942",
+          "value": "1942"
+        },
+        {
+          "disabled": false,
+          "label": "1941",
+          "value": "1941"
+        },
+        {
+          "disabled": false,
+          "label": "1940",
+          "value": "1940"
+        },
+        {
+          "disabled": false,
+          "label": "1939",
+          "value": "1939"
+        },
+        {
+          "disabled": false,
+          "label": "1938",
+          "value": "1938"
+        },
+        {
+          "disabled": false,
+          "label": "1937",
+          "value": "1937"
+        },
+        {
+          "disabled": false,
+          "label": "1936",
+          "value": "1936"
+        },
+        {
+          "disabled": false,
+          "label": "1935",
+          "value": "1935"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"year\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Where were you born? ?",
+      "invalid": false,
+      "key": "i:country",
+      "label": "Country *",
+      "name": "birthCountryCode",
+      "options": [
+        {
+          "disabled": false,
+          "label": "-- select --",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "United States",
+          "value": "200"
+        },
+        {
+          "disabled": false,
+          "label": "Afghanistan",
+          "value": "205"
+        },
+        {
+          "disabled": false,
+          "label": "Albania",
+          "value": "210"
+        },
+        {
+          "disabled": false,
+          "label": "Algeria",
+          "value": "212"
+        },
+        {
+          "disabled": false,
+          "label": "Andorra",
+          "value": "800"
+        },
+        {
+          "disabled": false,
+          "label": "Angola",
+          "value": "802"
+        },
+        {
+          "disabled": false,
+          "label": "Antigua & Barbuda",
+          "value": "803"
+        },
+        {
+          "disabled": false,
+          "label": "Argentina",
+          "value": "215"
+        },
+        {
+          "disabled": false,
+          "label": "Armenia",
+          "value": "218"
+        },
+        {
+          "disabled": false,
+          "label": "Aruba",
+          "value": "219"
+        },
+        {
+          "disabled": false,
+          "label": "Australia",
+          "value": "220"
+        },
+        {
+          "disabled": false,
+          "label": "Austria",
+          "value": "225"
+        },
+        {
+          "disabled": false,
+          "label": "Azerbaijan",
+          "value": "226"
+        },
+        {
+          "disabled": false,
+          "label": "Azores Islands",
+          "value": "804"
+        },
+        {
+          "disabled": false,
+          "label": "Bahamas",
+          "value": "806"
+        },
+        {
+          "disabled": false,
+          "label": "Bahrain",
+          "value": "808"
+        },
+        {
+          "disabled": false,
+          "label": "Bangladesh",
+          "value": "227"
+        },
+        {
+          "disabled": false,
+          "label": "Barbados",
+          "value": "228"
+        },
+        {
+          "disabled": false,
+          "label": "Belarus",
+          "value": "229"
+        },
+        {
+          "disabled": false,
+          "label": "Belgium",
+          "value": "230"
+        },
+        {
+          "disabled": false,
+          "label": "Belize",
+          "value": "816"
+        },
+        {
+          "disabled": false,
+          "label": "Benin",
+          "value": "838"
+        },
+        {
+          "disabled": false,
+          "label": "Bermuda",
+          "value": "233"
+        },
+        {
+          "disabled": false,
+          "label": "Bhutan",
+          "value": "814"
+        },
+        {
+          "disabled": false,
+          "label": "Bolivia",
+          "value": "235"
+        },
+        {
+          "disabled": false,
+          "label": "Bosnia-Herzegovina",
+          "value": "237"
+        },
+        {
+          "disabled": false,
+          "label": "Botswana",
+          "value": "238"
+        },
+        {
+          "disabled": false,
+          "label": "Brazil",
+          "value": "240"
+        },
+        {
+          "disabled": false,
+          "label": "British Virgin Islands",
+          "value": "951"
+        },
+        {
+          "disabled": false,
+          "label": "Brunei",
+          "value": "820"
+        },
+        {
+          "disabled": false,
+          "label": "Bulgaria",
+          "value": "245"
+        },
+        {
+          "disabled": false,
+          "label": "Burkina Faso (Upper Volta)",
+          "value": "948"
+        },
+        {
+          "disabled": false,
+          "label": "Burundi",
+          "value": "822"
+        },
+        {
+          "disabled": false,
+          "label": "Cabo Verde",
+          "value": "824"
+        },
+        {
+          "disabled": false,
+          "label": "Cambodia",
+          "value": "255"
+        },
+        {
+          "disabled": false,
+          "label": "Cameroon",
+          "value": "257"
+        },
+        {
+          "disabled": false,
+          "label": "Canada",
+          "value": "260"
+        },
+        {
+          "disabled": false,
+          "label": "Cayman Islands",
+          "value": "826"
+        },
+        {
+          "disabled": false,
+          "label": "Central African Republic",
+          "value": "828"
+        },
+        {
+          "disabled": false,
+          "label": "Chad",
+          "value": "830"
+        },
+        {
+          "disabled": false,
+          "label": "Channel Islands",
+          "value": "832"
+        },
+        {
+          "disabled": false,
+          "label": "Chile",
+          "value": "270"
+        },
+        {
+          "disabled": false,
+          "label": "China, Peoples Republic of",
+          "value": "273"
+        },
+        {
+          "disabled": false,
+          "label": "Cocos Islands",
+          "value": "834"
+        },
+        {
+          "disabled": false,
+          "label": "Colombia",
+          "value": "280"
+        },
+        {
+          "disabled": false,
+          "label": "Comoros",
+          "value": "836"
+        },
+        {
+          "disabled": false,
+          "label": "Congo, Democratic Rep. of the",
+          "value": "707"
+        },
+        {
+          "disabled": false,
+          "label": "Congo, Republic of the",
+          "value": "283"
+        },
+        {
+          "disabled": false,
+          "label": "Cook Islands",
+          "value": "835"
+        },
+        {
+          "disabled": false,
+          "label": "Costa Rica",
+          "value": "290"
+        },
+        {
+          "disabled": false,
+          "label": "Cote D Ivoire",
+          "value": "435"
+        },
+        {
+          "disabled": false,
+          "label": "Croatia",
+          "value": "292"
+        },
+        {
+          "disabled": false,
+          "label": "Cuba",
+          "value": "295"
+        },
+        {
+          "disabled": false,
+          "label": "Curacao",
+          "value": "298"
+        },
+        {
+          "disabled": false,
+          "label": "Cyprus",
+          "value": "300"
+        },
+        {
+          "disabled": false,
+          "label": "Czech Republic",
+          "value": "304"
+        },
+        {
+          "disabled": false,
+          "label": "Czechoslovakia",
+          "value": "305"
+        },
+        {
+          "disabled": false,
+          "label": "Denmark",
+          "value": "310"
+        },
+        {
+          "disabled": false,
+          "label": "Djibouti",
+          "value": "852"
+        },
+        {
+          "disabled": false,
+          "label": "Dominica",
+          "value": "314"
+        },
+        {
+          "disabled": false,
+          "label": "Dominican Republic",
+          "value": "315"
+        },
+        {
+          "disabled": false,
+          "label": "Ecuador",
+          "value": "320"
+        },
+        {
+          "disabled": false,
+          "label": "Egypt",
+          "value": "325"
+        },
+        {
+          "disabled": false,
+          "label": "El Salvador",
+          "value": "840"
+        },
+        {
+          "disabled": false,
+          "label": "England",
+          "value": "335"
+        },
+        {
+          "disabled": false,
+          "label": "Equatorial Guinea",
+          "value": "337"
+        },
+        {
+          "disabled": false,
+          "label": "Eritrea",
+          "value": "842"
+        },
+        {
+          "disabled": false,
+          "label": "Estonia",
+          "value": "327"
+        },
+        {
+          "disabled": false,
+          "label": "Eswatini (formerly Swaziland)",
+          "value": "940"
+        },
+        {
+          "disabled": false,
+          "label": "Ethiopia",
+          "value": "340"
+        },
+        {
+          "disabled": false,
+          "label": "Falkland Islands",
+          "value": "846"
+        },
+        {
+          "disabled": false,
+          "label": "Fiji",
+          "value": "342"
+        },
+        {
+          "disabled": false,
+          "label": "Finland",
+          "value": "345"
+        },
+        {
+          "disabled": false,
+          "label": "France",
+          "value": "350"
+        },
+        {
+          "disabled": false,
+          "label": "French Guiana",
+          "value": "848"
+        },
+        {
+          "disabled": false,
+          "label": "French Polynesia",
+          "value": "850"
+        },
+        {
+          "disabled": false,
+          "label": "Gabon",
+          "value": "854"
+        },
+        {
+          "disabled": false,
+          "label": "Gambia",
+          "value": "856"
+        },
+        {
+          "disabled": false,
+          "label": "Georgia (Republic Of)",
+          "value": "352"
+        },
+        {
+          "disabled": false,
+          "label": "German Dem Republic",
+          "value": "353"
+        },
+        {
+          "disabled": false,
+          "label": "Germany, Fed Republic",
+          "value": "357"
+        },
+        {
+          "disabled": false,
+          "label": "Ghana",
+          "value": "360"
+        },
+        {
+          "disabled": false,
+          "label": "Gibraltar",
+          "value": "858"
+        },
+        {
+          "disabled": false,
+          "label": "Greece",
+          "value": "365"
+        },
+        {
+          "disabled": false,
+          "label": "Greenland",
+          "value": "370"
+        },
+        {
+          "disabled": false,
+          "label": "Grenada",
+          "value": "863"
+        },
+        {
+          "disabled": false,
+          "label": "Guadeloupe",
+          "value": "864"
+        },
+        {
+          "disabled": false,
+          "label": "Guatemala",
+          "value": "375"
+        },
+        {
+          "disabled": false,
+          "label": "Guinea",
+          "value": "378"
+        },
+        {
+          "disabled": false,
+          "label": "Guinea-Bissau",
+          "value": "914"
+        },
+        {
+          "disabled": false,
+          "label": "Guyana",
+          "value": "243"
+        },
+        {
+          "disabled": false,
+          "label": "Haiti",
+          "value": "380"
+        },
+        {
+          "disabled": false,
+          "label": "Honduras",
+          "value": "385"
+        },
+        {
+          "disabled": false,
+          "label": "Hong Kong",
+          "value": "390"
+        },
+        {
+          "disabled": false,
+          "label": "Hungary",
+          "value": "395"
+        },
+        {
+          "disabled": false,
+          "label": "Iceland",
+          "value": "400"
+        },
+        {
+          "disabled": false,
+          "label": "India",
+          "value": "405"
+        },
+        {
+          "disabled": false,
+          "label": "Indonesia",
+          "value": "410"
+        },
+        {
+          "disabled": false,
+          "label": "Iran",
+          "value": "415"
+        },
+        {
+          "disabled": false,
+          "label": "Iraq",
+          "value": "420"
+        },
+        {
+          "disabled": false,
+          "label": "Ireland",
+          "value": "330"
+        },
+        {
+          "disabled": false,
+          "label": "Isle Of Man",
+          "value": "866"
+        },
+        {
+          "disabled": false,
+          "label": "Israel",
+          "value": "425"
+        },
+        {
+          "disabled": false,
+          "label": "Italy",
+          "value": "430"
+        },
+        {
+          "disabled": false,
+          "label": "Jamaica",
+          "value": "440"
+        },
+        {
+          "disabled": false,
+          "label": "Japan",
+          "value": "445"
+        },
+        {
+          "disabled": false,
+          "label": "Jordan",
+          "value": "450"
+        },
+        {
+          "disabled": false,
+          "label": "Kazakhstan",
+          "value": "453"
+        },
+        {
+          "disabled": false,
+          "label": "Kenya",
+          "value": "455"
+        },
+        {
+          "disabled": false,
+          "label": "Kiribati",
+          "value": "860"
+        },
+        {
+          "disabled": false,
+          "label": "Korea, Dem Republic (North)",
+          "value": "458"
+        },
+        {
+          "disabled": false,
+          "label": "Korea, Repub. Of (South)",
+          "value": "459"
+        },
+        {
+          "disabled": false,
+          "label": "Kosovo",
+          "value": "460"
+        },
+        {
+          "disabled": false,
+          "label": "Kuwait",
+          "value": "463"
+        },
+        {
+          "disabled": false,
+          "label": "Kyrgyzstan",
+          "value": "464"
+        },
+        {
+          "disabled": false,
+          "label": "Laos",
+          "value": "465"
+        },
+        {
+          "disabled": false,
+          "label": "Latvia",
+          "value": "470"
+        },
+        {
+          "disabled": false,
+          "label": "Lebanon",
+          "value": "475"
+        },
+        {
+          "disabled": false,
+          "label": "Lesotho",
+          "value": "871"
+        },
+        {
+          "disabled": false,
+          "label": "Liberia",
+          "value": "480"
+        },
+        {
+          "disabled": false,
+          "label": "Libya",
+          "value": "483"
+        },
+        {
+          "disabled": false,
+          "label": "Liechtenstein",
+          "value": "872"
+        },
+        {
+          "disabled": false,
+          "label": "Lithuania",
+          "value": "485"
+        },
+        {
+          "disabled": false,
+          "label": "Luxembourg",
+          "value": "490"
+        },
+        {
+          "disabled": false,
+          "label": "Macao",
+          "value": "873"
+        },
+        {
+          "disabled": false,
+          "label": "Madagascar",
+          "value": "500"
+        },
+        {
+          "disabled": false,
+          "label": "Malawi",
+          "value": "874"
+        },
+        {
+          "disabled": false,
+          "label": "Malaysia",
+          "value": "876"
+        },
+        {
+          "disabled": false,
+          "label": "Maldives",
+          "value": "878"
+        },
+        {
+          "disabled": false,
+          "label": "Mali",
+          "value": "880"
+        },
+        {
+          "disabled": false,
+          "label": "Malta",
+          "value": "882"
+        },
+        {
+          "disabled": false,
+          "label": "Marshall Islands",
+          "value": "503"
+        },
+        {
+          "disabled": false,
+          "label": "Martinique",
+          "value": "885"
+        },
+        {
+          "disabled": false,
+          "label": "Mauritania",
+          "value": "886"
+        },
+        {
+          "disabled": false,
+          "label": "Mauritius",
+          "value": "887"
+        },
+        {
+          "disabled": false,
+          "label": "Mexico",
+          "value": "505"
+        },
+        {
+          "disabled": false,
+          "label": "Micronesia",
+          "value": "506"
+        },
+        {
+          "disabled": false,
+          "label": "Moldova",
+          "value": "508"
+        },
+        {
+          "disabled": false,
+          "label": "Monaco",
+          "value": "888"
+        },
+        {
+          "disabled": false,
+          "label": "Mongolia",
+          "value": "890"
+        },
+        {
+          "disabled": false,
+          "label": "Montenegro",
+          "value": "509"
+        },
+        {
+          "disabled": false,
+          "label": "Montserrat",
+          "value": "891"
+        },
+        {
+          "disabled": false,
+          "label": "Morocco",
+          "value": "510"
+        },
+        {
+          "disabled": false,
+          "label": "Mozambique",
+          "value": "892"
+        },
+        {
+          "disabled": false,
+          "label": "Myanmar, Union Of (Burma)",
+          "value": "250"
+        },
+        {
+          "disabled": false,
+          "label": "Namibia",
+          "value": "512"
+        },
+        {
+          "disabled": false,
+          "label": "Nauru",
+          "value": "895"
+        },
+        {
+          "disabled": false,
+          "label": "Nepal",
+          "value": "515"
+        },
+        {
+          "disabled": false,
+          "label": "Netherland Antilles",
+          "value": "896"
+        },
+        {
+          "disabled": false,
+          "label": "Netherlands",
+          "value": "520"
+        },
+        {
+          "disabled": false,
+          "label": "New Caledonia",
+          "value": "898"
+        },
+        {
+          "disabled": false,
+          "label": "New Zealand",
+          "value": "530"
+        },
+        {
+          "disabled": false,
+          "label": "Nicaragua",
+          "value": "535"
+        },
+        {
+          "disabled": false,
+          "label": "Niger",
+          "value": "904"
+        },
+        {
+          "disabled": false,
+          "label": "Nigeria",
+          "value": "540"
+        },
+        {
+          "disabled": false,
+          "label": "Niue",
+          "value": "905"
+        },
+        {
+          "disabled": false,
+          "label": "North Macedonia, Republic of",
+          "value": "498"
+        },
+        {
+          "disabled": false,
+          "label": "Northern Ireland",
+          "value": "908"
+        },
+        {
+          "disabled": false,
+          "label": "Norway",
+          "value": "545"
+        },
+        {
+          "disabled": false,
+          "label": "Oman",
+          "value": "549"
+        },
+        {
+          "disabled": false,
+          "label": "Pakistan",
+          "value": "550"
+        },
+        {
+          "disabled": false,
+          "label": "Palau",
+          "value": "551"
+        },
+        {
+          "disabled": false,
+          "label": "Panama",
+          "value": "555"
+        },
+        {
+          "disabled": false,
+          "label": "Papua New Guinea",
+          "value": "900"
+        },
+        {
+          "disabled": false,
+          "label": "Paraguay",
+          "value": "560"
+        },
+        {
+          "disabled": false,
+          "label": "Peru",
+          "value": "565"
+        },
+        {
+          "disabled": false,
+          "label": "Philippines",
+          "value": "570"
+        },
+        {
+          "disabled": false,
+          "label": "Pitcairn Island",
+          "value": "912"
+        },
+        {
+          "disabled": false,
+          "label": "Poland",
+          "value": "575"
+        },
+        {
+          "disabled": false,
+          "label": "Portugal",
+          "value": "580"
+        },
+        {
+          "disabled": false,
+          "label": "Qatar",
+          "value": "916"
+        },
+        {
+          "disabled": false,
+          "label": "Reunion",
+          "value": "917"
+        },
+        {
+          "disabled": false,
+          "label": "Romania",
+          "value": "595"
+        },
+        {
+          "disabled": false,
+          "label": "Russia",
+          "value": "583"
+        },
+        {
+          "disabled": false,
+          "label": "Rwanda",
+          "value": "920"
+        },
+        {
+          "disabled": false,
+          "label": "Samoa (formerly Western Samoa)",
+          "value": "956"
+        },
+        {
+          "disabled": false,
+          "label": "San Marino",
+          "value": "924"
+        },
+        {
+          "disabled": false,
+          "label": "Sao Tome & Principe",
+          "value": "926"
+        },
+        {
+          "disabled": false,
+          "label": "Saudi Arabia",
+          "value": "605"
+        },
+        {
+          "disabled": false,
+          "label": "Scotland",
+          "value": "610"
+        },
+        {
+          "disabled": false,
+          "label": "Senegal",
+          "value": "930"
+        },
+        {
+          "disabled": false,
+          "label": "Serbia",
+          "value": "584"
+        },
+        {
+          "disabled": false,
+          "label": "Serbia & Montenegro",
+          "value": "585"
+        },
+        {
+          "disabled": false,
+          "label": "Seychelles Islands",
+          "value": "932"
+        },
+        {
+          "disabled": false,
+          "label": "Sierra Leone",
+          "value": "615"
+        },
+        {
+          "disabled": false,
+          "label": "Singapore",
+          "value": "617"
+        },
+        {
+          "disabled": false,
+          "label": "Sint Maarten",
+          "value": "598"
+        },
+        {
+          "disabled": false,
+          "label": "Slovakia",
+          "value": "618"
+        },
+        {
+          "disabled": false,
+          "label": "Slovenia",
+          "value": "619"
+        },
+        {
+          "disabled": false,
+          "label": "Solomon Islands",
+          "value": "936"
+        },
+        {
+          "disabled": false,
+          "label": "Somalia",
+          "value": "586"
+        },
+        {
+          "disabled": false,
+          "label": "South Africa",
+          "value": "587"
+        },
+        {
+          "disabled": false,
+          "label": "South Sudan",
+          "value": "937"
+        },
+        {
+          "disabled": false,
+          "label": "Spain",
+          "value": "620"
+        },
+        {
+          "disabled": false,
+          "label": "Sri Lanka",
+          "value": "622"
+        },
+        {
+          "disabled": false,
+          "label": "St Vincent & The Grenadines",
+          "value": "925"
+        },
+        {
+          "disabled": false,
+          "label": "St. Helena",
+          "value": "939"
+        },
+        {
+          "disabled": false,
+          "label": "St. Kitts & Nevis",
+          "value": "921"
+        },
+        {
+          "disabled": false,
+          "label": "St. Lucia",
+          "value": "923"
+        },
+        {
+          "disabled": false,
+          "label": "St. Pierre & Miquelon",
+          "value": "922"
+        },
+        {
+          "disabled": false,
+          "label": "Sudan",
+          "value": "625"
+        },
+        {
+          "disabled": false,
+          "label": "Suriname",
+          "value": "630"
+        },
+        {
+          "disabled": false,
+          "label": "Sweden",
+          "value": "635"
+        },
+        {
+          "disabled": false,
+          "label": "Switzerland",
+          "value": "640"
+        },
+        {
+          "disabled": false,
+          "label": "Syria",
+          "value": "645"
+        },
+        {
+          "disabled": false,
+          "label": "Tahiti",
+          "value": "650"
+        },
+        {
+          "disabled": false,
+          "label": "Taiwan (Rep. Of China)",
+          "value": "275"
+        },
+        {
+          "disabled": false,
+          "label": "Tajikistan",
+          "value": "651"
+        },
+        {
+          "disabled": false,
+          "label": "Tanzania",
+          "value": "656"
+        },
+        {
+          "disabled": false,
+          "label": "Thailand",
+          "value": "660"
+        },
+        {
+          "disabled": false,
+          "label": "Timor-Leste",
+          "value": "663"
+        },
+        {
+          "disabled": false,
+          "label": "Togo",
+          "value": "942"
+        },
+        {
+          "disabled": false,
+          "label": "Tonga",
+          "value": "944"
+        },
+        {
+          "disabled": false,
+          "label": "Trinidad & Tobago",
+          "value": "665"
+        },
+        {
+          "disabled": false,
+          "label": "Tunisia",
+          "value": "668"
+        },
+        {
+          "disabled": false,
+          "label": "Turkiye (formerly Turkey)",
+          "value": "670"
+        },
+        {
+          "disabled": false,
+          "label": "Turkmenistan",
+          "value": "672"
+        },
+        {
+          "disabled": false,
+          "label": "Turks & Caicos Islands",
+          "value": "946"
+        },
+        {
+          "disabled": false,
+          "label": "Tuvalu",
+          "value": "947"
+        },
+        {
+          "disabled": false,
+          "label": "Uganda",
+          "value": "675"
+        },
+        {
+          "disabled": false,
+          "label": "Ukraine",
+          "value": "680"
+        },
+        {
+          "disabled": false,
+          "label": "United Arab Emirates",
+          "value": "949"
+        },
+        {
+          "disabled": false,
+          "label": "United Kingdom",
+          "value": "862"
+        },
+        {
+          "disabled": false,
+          "label": "Uruguay",
+          "value": "685"
+        },
+        {
+          "disabled": false,
+          "label": "USSR",
+          "value": "690"
+        },
+        {
+          "disabled": false,
+          "label": "Uzbekistan",
+          "value": "693"
+        },
+        {
+          "disabled": false,
+          "label": "Vanuatu",
+          "value": "902"
+        },
+        {
+          "disabled": false,
+          "label": "Venezuela",
+          "value": "695"
+        },
+        {
+          "disabled": false,
+          "label": "Vietnam",
+          "value": "700"
+        },
+        {
+          "disabled": false,
+          "label": "Wales",
+          "value": "952"
+        },
+        {
+          "disabled": false,
+          "label": "Wallis & Futuma Islands",
+          "value": "954"
+        },
+        {
+          "disabled": false,
+          "label": "Western Sahara",
+          "value": "938"
+        },
+        {
+          "disabled": false,
+          "label": "Yemen",
+          "value": "960"
+        },
+        {
+          "disabled": false,
+          "label": "Yugoslavia",
+          "value": "705"
+        },
+        {
+          "disabled": false,
+          "label": "Zambia",
+          "value": "708"
+        },
+        {
+          "disabled": false,
+          "label": "Zimbabwe",
+          "value": "589"
+        },
+        {
+          "disabled": false,
+          "label": "Other",
+          "value": "999"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"country\"]",
+      "value": ""
+    },
+    {
+      "control": "text",
+      "disabled": false,
+      "group": "Where were you born? ?",
+      "invalid": false,
+      "key": "i:city",
+      "label": "City *",
+      "name": "birthCity",
+      "options": [],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"city\"]",
+      "value": ""
+    },
+    {
+      "control": "radio",
+      "disabled": false,
+      "group": "Have you ever attended a California public school? ?",
+      "invalid": false,
+      "key": "n:hasAttendedCaPublicSchool",
+      "label": "Have you ever attended a California public school? ?",
+      "name": "hasAttendedCaPublicSchool",
+      "options": [
+        {
+          "disabled": false,
+          "label": "No",
+          "selector": "[id=\"hasAttendedCaPublicSchool1\"]",
+          "value": "N"
+        },
+        {
+          "disabled": false,
+          "label": "Yes",
+          "selector": "[id=\"hasAttendedCaPublicSchool_yes\"]",
+          "value": "Y"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"hasAttendedCaPublicSchool1\"]",
+      "value": ""
+    }
+  ],
+  "frames_present": false,
+  "schema": "observed-page/1",
+  "title": "Synthetic UC personal-information page",
+  "url": "https://apply.universityofcalifornia.edu/my-application/accountPersonal"
+}

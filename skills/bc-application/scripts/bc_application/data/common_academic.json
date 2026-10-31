@@ -1,0 +1,44 @@
+{
+  "schema": "common-academic-contract/1",
+  "origin": "https://apply.commonapp.org",
+  "title": "My Common Application | Common App",
+  "paths": {
+    "9": "/common/13/55",
+    "10": "/common/13/56",
+    "11": "/common/13/57"
+  },
+  "headers": {
+    "school_name": "School Name",
+    "school_year": "School Year",
+    "grading_scale": "Grading Scale",
+    "schedule": "Schedule"
+  },
+  "schedules": {
+    "Semesters": [
+      "semester_1",
+      "semester_2",
+      "final"
+    ],
+    "Yearly": [
+      "final"
+    ]
+  },
+  "terms": {
+    "semester_1": "Semester 1",
+    "semester_2": "Semester 2",
+    "final": "Final"
+  },
+  "scales": {
+    "Other": "school_grade_symbol",
+    "1-100": "school_percent"
+  },
+  "add_transcript": "Add courses from another transcript",
+  "add_course": "Add another course",
+  "save": "Continue, Closes dialog",
+  "close_id": "changePreferencesClose",
+  "instructions": [
+    "Use this grid to report your courses exactly as they appear on your transcript.",
+    "If any middle school courses appear on your transcript, you do not need to note the middle school's name. Please use the high school name where you received credit instead.",
+    "Choose “Add courses from another transcript” to add courses from another high school transcript, or any other courses that use a different schedule or grading scale."
+  ]
+}

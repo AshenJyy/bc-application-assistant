@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Invented parent record draft</title>
+<style>body{font:17px system-ui;max-width:900px;margin:30px auto;color:#183354}form{padding:20px;border:1px solid #abc}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{border:1px solid #abc;padding:10px}input,button{font:inherit;padding:8px}[role=dialog]{background:#edf3fa;padding:15px;margin-top:15px}label{display:block;margin:10px 0}</style>
+<h1>Invented university — synthetic record parent</h1>
+<form id="parentForm" method="post"><p>Use explicit schooling years and independently verified institution records.</p>
+<label for="schoolYears">Years of regular education *</label><input id="schoolYears" required inputmode="numeric" value="0">
+<p>Total years: <span id="totalYears">0</span></p>
+<div id="recordSummary"><table role="grid"><caption>Prior institutions</caption><thead><tr><th>Institution</th><th>Attendance</th><th>Action</th></tr></thead><tbody>
+<tr><td>Invented School A</td><td>02-09-2020 to 29-06-2021</td><td><button id="rowA" type="button">Action</button></td></tr>
+<tr><td>Invented School B</td><td>03-09-2021 to 28-06-2022</td><td><button id="rowB" type="button">Action</button></td></tr>
+</tbody></table></div><button id="addInstitution" type="button">Add institution</button><button id="saveParent" type="submit">Save draft</button></form>
+<output id="status" role="status">Draft loaded</output>
+<div id="recordDialog" role="dialog" aria-labelledby="editorHeading" style="display:none"><h2 id="editorHeading">Prior institution</h2><form id="recordForm" method="post">
+<label for="institution">Institution name *</label><input id="institution" required>
+<label for="dateFrom">Date from *</label><input id="dateFrom" required>
+<label for="dateTo">Date to *</label><input id="dateTo" required>
+<button id="saveRecord" type="submit">Save</button><button id="cancelRecord" type="button">Cancel</button></form></div>
+<script>
+const stored=localStorage.getItem('bc-parent-record-v29');if(stored!==null)schoolYears.value=stored;
+function total(){totalYears.textContent=schoolYears.value;}schoolYears.oninput=total;total();
+parentForm.onsubmit=e=>{e.preventDefault();localStorage.setItem('bc-parent-record-v29',schoolYears.value);document.getElementById('status').textContent='Draft saved';};
+const records=[['Invented School A','02-09-2020','29-06-2021'],['Invented School B','03-09-2021','28-06-2022']];
+function openRecord(i){[institution.value,dateFrom.value,dateTo.value]=records[i];recordDialog.style.display='block';}
+rowA.onclick=()=>openRecord(0);rowB.onclick=()=>openRecord(1);addInstitution.onclick=()=>openRecord(0);
+cancelRecord.onclick=()=>recordDialog.style.display='none';recordForm.onsubmit=e=>{e.preventDefault();recordDialog.style.display='none';};
+</script></html>

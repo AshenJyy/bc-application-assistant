@@ -1,0 +1,371 @@
+{
+  "actions": [
+    {
+      "disabled": false,
+      "key": "a:Save and Continue:0",
+      "label": "Save and Continue",
+      "selector": null
+    }
+  ],
+  "fields": [
+    {
+      "control": "textarea",
+      "disabled": false,
+      "group": "List any course(s) with standardized exams (A-level, Baccalauréat, CAPEs, etc.) taken or underway. (If you have taken the exam, please list the test date and score.) Advanced Placement or International Baccalaureate exams should be reported on the next page.",
+      "invalid": false,
+      "key": "i:form_28dd8329-406c-4dd6-aa12-c19a9f478494",
+      "label": "List any course(s) with standardized exams (A-level, Baccalauréat, CAPEs, etc.) taken or underway. (If you have taken the exam, please list the test date and score.) Advanced Placement or International Baccalaureate exams should be reported on the next page.",
+      "name": "form_28dd8329-406c-4dd6-aa12-c19a9f478494",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"form_28dd8329-406c-4dd6-aa12-c19a9f478494\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Calculus*",
+      "invalid": false,
+      "key": "i:form_aa4ac104-d396-4c04-b2fe-7a1d1b22c1f6",
+      "label": "Calculus*",
+      "name": "form_aa4ac104-d396-4c04-b2fe-7a1d1b22c1f6",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "Taken",
+          "value": "d619a3d4-150e-4cef-b7c2-76ab131cceb1"
+        },
+        {
+          "disabled": false,
+          "label": "In progress/will take",
+          "value": "2dba2db3-eaf6-4318-8081-3a06bcc8f670"
+        },
+        {
+          "disabled": false,
+          "label": "Will not take",
+          "value": "271856e4-3ca6-4bd1-bbd4-dba16979cc01"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"form_aa4ac104-d396-4c04-b2fe-7a1d1b22c1f6\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Year",
+      "invalid": false,
+      "key": "i:form_1a2c725d-ca0e-4041-92f6-b0c59397ea82",
+      "label": "Year",
+      "name": "form_1a2c725d-ca0e-4041-92f6-b0c59397ea82",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "7010fd48-ca47-425e-98ac-c0c18678c2ab"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "d0788768-44bd-4b09-ad47-ebfc571ff407"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "ba624f7f-a00a-46f1-825d-9876a9b6f0a2"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "189454d8-e593-48eb-87cc-bd8ee5257e6e"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"form_1a2c725d-ca0e-4041-92f6-b0c59397ea82\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Physics*",
+      "invalid": false,
+      "key": "i:form_531f78f7-d154-4957-9fb3-973df83dd8d8",
+      "label": "Physics*",
+      "name": "form_531f78f7-d154-4957-9fb3-973df83dd8d8",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "Taken",
+          "value": "d619a3d4-150e-4cef-b7c2-76ab131cceb1"
+        },
+        {
+          "disabled": false,
+          "label": "In progress/will take",
+          "value": "2dba2db3-eaf6-4318-8081-3a06bcc8f670"
+        },
+        {
+          "disabled": false,
+          "label": "Will not take",
+          "value": "271856e4-3ca6-4bd1-bbd4-dba16979cc01"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"form_531f78f7-d154-4957-9fb3-973df83dd8d8\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Year",
+      "invalid": false,
+      "key": "i:form_e740e253-c33f-4c36-948e-23e3cc1fd078",
+      "label": "Year",
+      "name": "form_e740e253-c33f-4c36-948e-23e3cc1fd078",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "7010fd48-ca47-425e-98ac-c0c18678c2ab"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "d0788768-44bd-4b09-ad47-ebfc571ff407"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "ba624f7f-a00a-46f1-825d-9876a9b6f0a2"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "189454d8-e593-48eb-87cc-bd8ee5257e6e"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"form_e740e253-c33f-4c36-948e-23e3cc1fd078\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Biology*",
+      "invalid": false,
+      "key": "i:form_d589b238-670c-45b5-aad9-e42c398fb7b1",
+      "label": "Biology*",
+      "name": "form_d589b238-670c-45b5-aad9-e42c398fb7b1",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "Taken",
+          "value": "d619a3d4-150e-4cef-b7c2-76ab131cceb1"
+        },
+        {
+          "disabled": false,
+          "label": "In progress/will take",
+          "value": "2dba2db3-eaf6-4318-8081-3a06bcc8f670"
+        },
+        {
+          "disabled": false,
+          "label": "Will not take",
+          "value": "271856e4-3ca6-4bd1-bbd4-dba16979cc01"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"form_d589b238-670c-45b5-aad9-e42c398fb7b1\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Year",
+      "invalid": false,
+      "key": "i:form_c84b9059-fe26-4f65-b976-13456a6d9013",
+      "label": "Year",
+      "name": "form_c84b9059-fe26-4f65-b976-13456a6d9013",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "7010fd48-ca47-425e-98ac-c0c18678c2ab"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "d0788768-44bd-4b09-ad47-ebfc571ff407"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "ba624f7f-a00a-46f1-825d-9876a9b6f0a2"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "189454d8-e593-48eb-87cc-bd8ee5257e6e"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"form_c84b9059-fe26-4f65-b976-13456a6d9013\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Chemistry*",
+      "invalid": false,
+      "key": "i:form_b44005b3-be60-45e8-acc6-06d7d82ebbd5",
+      "label": "Chemistry*",
+      "name": "form_b44005b3-be60-45e8-acc6-06d7d82ebbd5",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "Taken",
+          "value": "d619a3d4-150e-4cef-b7c2-76ab131cceb1"
+        },
+        {
+          "disabled": false,
+          "label": "In progress/will take",
+          "value": "2dba2db3-eaf6-4318-8081-3a06bcc8f670"
+        },
+        {
+          "disabled": false,
+          "label": "Will not take",
+          "value": "271856e4-3ca6-4bd1-bbd4-dba16979cc01"
+        }
+      ],
+      "readonly": false,
+      "required": true,
+      "selector": "[id=\"form_b44005b3-be60-45e8-acc6-06d7d82ebbd5\"]",
+      "value": ""
+    },
+    {
+      "control": "select",
+      "disabled": false,
+      "group": "Year",
+      "invalid": false,
+      "key": "i:form_825d958b-6696-40f0-8cac-caea844b2d46",
+      "label": "Year",
+      "name": "form_825d958b-6696-40f0-8cac-caea844b2d46",
+      "options": [
+        {
+          "disabled": false,
+          "label": "",
+          "value": ""
+        },
+        {
+          "disabled": false,
+          "label": "9th",
+          "value": "7010fd48-ca47-425e-98ac-c0c18678c2ab"
+        },
+        {
+          "disabled": false,
+          "label": "10th",
+          "value": "d0788768-44bd-4b09-ad47-ebfc571ff407"
+        },
+        {
+          "disabled": false,
+          "label": "11th",
+          "value": "ba624f7f-a00a-46f1-825d-9876a9b6f0a2"
+        },
+        {
+          "disabled": false,
+          "label": "12th",
+          "value": "189454d8-e593-48eb-87cc-bd8ee5257e6e"
+        }
+      ],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"form_825d958b-6696-40f0-8cac-caea844b2d46\"]",
+      "value": ""
+    },
+    {
+      "control": "textarea",
+      "disabled": false,
+      "group": "If there is anything we should know about your school's course offerings, extenuating circumstances regarding your coursework or access to standardized testing, or school's grading system, please use the space below.optional; 100 words or fewer",
+      "invalid": false,
+      "key": "i:form_2c9816cb-52fd-40bb-8f23-feb2181ba9c5",
+      "label": "If there is anything we should know about your school's course offerings, extenuating circumstances regarding your coursework or access to standardized testing, or school's grading system, please use the space below.optional; 100 words or fewer",
+      "name": "form_2c9816cb-52fd-40bb-8f23-feb2181ba9c5",
+      "options": [],
+      "readonly": false,
+      "required": false,
+      "selector": "[id=\"form_2c9816cb-52fd-40bb-8f23-feb2181ba9c5\"]",
+      "value": ""
+    }
+  ],
+  "frames_present": false,
+  "schema": "observed-page/1",
+  "title": "Self-reported coursework",
+  "url": "https://apply.mitadmissions.org/apply/frm?78d27e74-5c1d-42c2-8632-1a67da7dfb80",
+  "mit_coursework": {
+    "schema": "mit-coursework/1",
+    "classes_instruction": "This section is only required for students in the U.S. or who attend U.S.-based school systems. Report all classes you have taken or will take in high school or for high school credit.",
+    "stem_instruction": "All students are required to fill out this section. Please indicate the status and year taken (or to be taken) of each class listed below. If you took these classes in a year that is not listed, or you did not take the class, you can leave the year blank. If you have taken a class multiple times, please list the year you most recently took it.",
+    "subject_year_pairs": [
+      {
+        "subject": "calculus",
+        "status_key": "i:form_aa4ac104-d396-4c04-b2fe-7a1d1b22c1f6",
+        "year_key": "i:form_1a2c725d-ca0e-4041-92f6-b0c59397ea82"
+      },
+      {
+        "subject": "physics",
+        "status_key": "i:form_531f78f7-d154-4957-9fb3-973df83dd8d8",
+        "year_key": "i:form_e740e253-c33f-4c36-948e-23e3cc1fd078"
+      },
+      {
+        "subject": "biology",
+        "status_key": "i:form_d589b238-670c-45b5-aad9-e42c398fb7b1",
+        "year_key": "i:form_c84b9059-fe26-4f65-b976-13456a6d9013"
+      },
+      {
+        "subject": "chemistry",
+        "status_key": "i:form_b44005b3-be60-45e8-acc6-06d7d82ebbd5",
+        "year_key": "i:form_825d958b-6696-40f0-8cac-caea844b2d46"
+      }
+    ]
+  }
+}

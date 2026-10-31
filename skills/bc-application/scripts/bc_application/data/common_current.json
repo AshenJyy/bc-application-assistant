@@ -1,0 +1,11 @@
+{
+  "origin": "https://apply.commonapp.org",
+  "path": "/common/4/24",
+  "title": "My Common Application | Common App",
+  "heading": "Current or Most Recent Year Courses",
+  "count_label": "Please list all courses you are taking this academic year. If you are not currently enrolled, please list courses from your most recent academic year.How many courses would you like to report?",
+  "scheduling_label": "Please select the course scheduling system your institution is using.",
+  "content_base": "Complete your Common Application Current or Most Recent Year Courses <page-status> Preview Education Section, Opens dialog Please list all courses you are taking this academic year. If you are not currently enrolled, please list courses from your most recent academic year. How many courses would you like to report?",
+  "course_content": "Please select the course scheduling system your institution is using. Semester Trimester Quarter Yearly <course-rows>",
+  "content_end": "Continue to next section"
+}

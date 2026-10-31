@@ -1,0 +1,34 @@
+{
+  "schema":"common-school-contract/1",
+  "origin":"https://apply.commonapp.org",
+  "title":"My Common Application | Common App",
+  "lookup_title":"High School Lookup",
+  "lookup_search":"High School Name",
+  "lookup_choices":["CEEB Code","City","Country/Region/Territory","High School Name"],
+  "progression_label":"Please indicate if any of these options will have affected your progression through or since secondary/high school. Check all that apply.",
+  "progression":[
+    {"part":"early","label":"Did or will graduate early","value":"1"},
+    {"part":"late","label":"Did or will graduate late","value":"2"},
+    {"part":"time_off","label":"Did or will take time off","value":"4"},
+    {"part":"gap_year","label":"Did or will take gap year","value":"5"},
+    {"part":"unchanged","label":"No change in progression","value":"7"}
+  ],
+  "current":{
+    "path":"/common/4/18","heading":"Current or Most Recent Secondary/High School",
+    "records":[{"question_id":"245","label":"Current or most recent secondary/high school","entry_key":"i:text_ques_246","entry_label":"Date of entry"}],
+    "boarding":{"key":"r:ques_1490","label":"Is this a boarding school?"},
+    "graduate":{"key":"r:ques_1834","label":"Did or will you graduate from this school?"},
+    "graduation":{"key":"i:text_ques_247","label":"Graduation date"},
+    "statement":{"question_id":"836","label":"Please use the space below to provide details about the change in progression through secondary/high school that you indicated above."}
+  },
+  "other":{
+    "path":"/common/4/19","heading":"Other Secondary/High Schools",
+    "count":{"key":"r:ques_255","label":"If you have attended any secondary/high schools not listed in the previous section, please indicate the number of schools."},
+    "records":[
+      {"question_id":"256","label":"Secondary/high school 2","entry_key":"i:text_ques_257","entry_label":"Secondary/high school 2 from date","exit_key":"i:text_ques_258","exit_label":"Secondary/high school 2 to date"},
+      {"question_id":"259","label":"Secondary/high school 3","entry_key":"i:text_ques_260","entry_label":"Secondary/high school 3 from date","exit_key":"i:text_ques_261","exit_label":"Secondary/high school 3 to date"},
+      {"question_id":"262","label":"Secondary/high school 4","entry_key":"i:text_ques_263","entry_label":"Secondary/high school 4 from date","exit_key":"i:text_ques_264","exit_label":"Secondary/high school 4 to date"}
+    ],
+    "statement":{"question_id":"1931","label":"Please provide details about why you left each of the above secondary/high schools."}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bc-application-dev",
+  "interface": {"displayName": "BC Application local development"},
+  "plugins": [
+    {
+      "name": "bc-application-assistant",
+      "source": {"source": "local", "path": "./work/local-plugin"}
+    }
+  ]
+}
